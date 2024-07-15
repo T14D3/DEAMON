@@ -1,0 +1,194 @@
+/* Zones.css */
+
+/* General styles */
+body {
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  position: relative; /* Ensure relative positioning for absolute children */
+}
+
+.App-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensure header content is above the overlay */
+}
+
+.search-icon {
+  position: fixed; /* Fixed position to stay in viewport */
+  top: 60px; /* Adjust top distance as needed */
+  right: 20px; /* Adjust right distance as needed */
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.2em;
+  cursor: pointer;
+  z-index: 1001; /* Ensure above all other content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-menu {
+  position: fixed;
+  top: 120px; /* Adjust top distance as needed */
+  right: -400px; /* Initially hidden off-screen */
+  width: 400px;
+  max-height: calc(100vh - 60px); /* Take full height minus header and search icon */
+  overflow-y: auto; /* Enable vertical scrolling */
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid #fff;
+  z-index: 1000;
+  transition: right 0.3s ease; /* Smooth transition */
+}
+
+.overlay-menu.active {
+  right: 0; /* Visible position */
+}
+
+.filter-box {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px; /* Padding to offset from top of overlay */
+}
+
+.filter-section {
+  margin-bottom: 10px;
+}
+
+.filter-option {
+  margin-bottom: 5px; /* Spacing between each filter option */
+}
+
+.filter-option button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1em;
+}
+
+.filter-option button.selected {
+  color: #ff5733; /* Example: Orange color for selected filters */
+  /* Add additional styling for selected filters */
+}
+
+.entry-box {
+  margin-bottom: 5px;
+}
+
+.entry-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.entry-header h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.battle-zones {
+  padding-left: 30px;
+}
+
+.battle-zone-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: transparent;
+  margin-top: 5px;
+}
+
+.battle-zone-header h4 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.rewards {
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.reward-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #fff;
+  margin-top: 5px;
+  margin-left: 30px;
+  padding-right: 50px;
+}
+
+.reward-box img {
+  margin-right: 30px;
+  margin-left: 30px;
+  width: 80px;
+  height: 80px;
+}
+
+.reward-text {
+  flex: 1; /* Adjust the flex property to occupy remaining space */
+}
+
+.reward-text p {
+  margin: 8px 0; /* Adjust margins for paragraphs */
+  color: #fff;
+  text-align: left; /* Align text to the left */
+}
+
+.reward-text p:first-child {
+  margin-top: 5px; /* Adjust top margin for the first paragraph */
+}
+
+.reward-others {
+  display: flex;
+  align-items: left;
+  padding: 10px;
+  border: 1px solid #fff;
+  margin-top: 5px;
+}
+
+.entry-header,
+.battle-zone-header,
+.reactors {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 0;
+  border: 1px solid #fff; /* Outline in white */
+}
+
+.entry-header:hover,
+.battle-zone-header:hover,
+.reactors:hover {
+  background-color: #222; /* Darker on hover */
+}
+
+
+h2,
+h4,
+h5 {
+  margin: 5px 0;
+  color: #fff;
+}
+
+p {
+  margin: 5px 0;
+  color: #fff;
+}

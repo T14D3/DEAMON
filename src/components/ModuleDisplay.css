@@ -1,0 +1,67 @@
+/* ModuleDisplay.css */
+
+.module-display {
+  margin-top: 20px;
+  width: 80%; /* Same width as other containers */
+}
+
+.module-grid-container {
+  background-color: #333; /* Dark-gray background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Ensure full width */
+  padding: 20px 0; /* Added padding for spacing */
+}
+
+.module-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, auto);
+  width: 100%; /* Ensure full width */
+  justify-content: center;
+}
+
+.module-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.module-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.module-item p.module-item-name,
+.module-item p.module-item-drain {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  z-index: 1;
+  opacity: 1;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: pretendard, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.module-item p.module-item-name {
+  top: 55%;
+  font-size: 24px; /* Adjusted font size */
+}
+
+.module-item p.module-item-drain {
+  left: 55%;
+  z-index: 2;
+  font-size: 30px; /* Adjusted font size */
+}

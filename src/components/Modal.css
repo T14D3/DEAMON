@@ -1,0 +1,43 @@
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #222;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #3aa0ac;
+}
+
+.modal-input {
+  width: 50px;
+  text-align: center;
+  background-color: #333;
+  border: none;
+  color: #3aa0ac;
+  outline: none; /* Remove white outline */
+  -webkit-appearance: none; /* Remove up/down buttons in Chrome/Safari */
+  -moz-appearance: textfield; /* Remove up/down buttons in Firefox */
+  padding: 5px; /* Add some padding for better look */
+  border-radius: 3px; /* Slightly round corners */
+  font-size: 16px; /* Increase font size for better readability */
+}
+
+.modal-input::-webkit-outer-spin-button,
+.modal-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; /* Remove margin in Chrome/Safari */
+}

@@ -1,0 +1,222 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+pre {
+  text-align: left;
+  background-color: rgba(100, 100, 100, 0.5);
+  padding: 10px;
+  overflow: auto;
+  width: 80%;
+  margin: 20px 0;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #2f3031;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #aaa;
+}
+
+.error {
+  text-align: left;
+  background-color: rgba(255, 0, 0, 0.5);
+  padding: 10px;
+  overflow: auto;
+  width: 80%;
+  margin: 20px 0;
+}
+
+.user-info-container {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.user-info-box {
+  background-color: rgba(100, 100, 100, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px; /* Added margin to separate from descendant container */
+}
+
+.user-info-box h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.user-info-box h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.user-info-box .ouid {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.descendant-container {
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.descendant-box {
+  background-color: rgba(100, 100, 100, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; /* Added margin to separate from module display */
+}
+
+.descendant-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.descendant-info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.descendant-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align descendant details */
+}
+
+.descendant-details img {
+  margin-top: 10px;
+  max-width: 150px;
+  border-radius: 8px;
+}
+
+.stats-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stats-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: center; /* Center align stats box */
+}
+
+.stat-item {
+  background-color: rgba(100, 100, 100, 0.5);
+  padding: 5px;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.stat-type {
+  font-weight: bold;
+  display: block;
+}
+
+.stat-value {
+  font-size: 12px;
+}
+
+.module-display {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.module-grid-container {
+  background-color: #333; /* Dark-gray background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.module-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+}
+
+.module-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.module-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.module-item p.module-item-name,
+.module-item p.module-item-drain {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  z-index: 1;
+  opacity: 1;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: pretendard, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.module-item p.module-item-name {
+  top: 55%;
+}
+
+.module-item p.module-item-drain {
+  top: -2%;
+  left: 55%;
+  z-index: 2;
+}
+
+

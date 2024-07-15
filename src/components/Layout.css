@@ -1,0 +1,21 @@
+/* Layout.css */
+
+.layout-container {
+    position: relative; /* Ensure children can be positioned relative to this container */
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(228, 19, 19, 0.6); /* Adjust opacity for darkened overlay */
+    z-index: -1; /* Ensure it's behind other content */
+  }
+  
+  .content {
+    position: relative; /* Ensure content is positioned relative to layout container */
+    padding-top: 38px; /* Adjust based on header height */
+  }
+  
