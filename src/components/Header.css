@@ -84,3 +84,16 @@
 .search-button:hover {
   background-color: #327077; 
 }
+.github-icon {
+  position: absolute;
+  right: 15px;
+}
+
+.github-icon a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.github-icon a:hover {
+  color: #04e0f8;
+}

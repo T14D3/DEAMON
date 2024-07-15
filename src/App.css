@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   background: url('https://tfd.t14d3.de/bg.png') center/cover fixed no-repeat;
+  overflow-y: hidden;
 }
 
 .loading-container {

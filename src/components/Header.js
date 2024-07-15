@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import './Header.css';
 
 function Header() {
@@ -53,6 +55,13 @@ function Header() {
             />
             <button type="submit" className="search-button">Search</button>
           </form>
+        </div>
+
+        {/* GitHub icon */}
+        <div className="github-icon">
+          <a href="https://github.com/T14D3/DEAMON" target="_blank" rel="noreferrer">
+            <FontAwesomeIcon icon={faGithub} size="2x" />
+          </a>
         </div>
       </nav>
     </header>
