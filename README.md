@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# API Tools and Resources for The First Descendant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a sandbox application built with React for managing and interacting with modular components.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+The Sandbox allows users to:
 
-### `npm start`
+- Add modules from a predefined list.
+- Arrange modules in a 12-slot grid.
+- Modify module properties such as level and slot.
+- Export and import module configurations.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Adding Modules
 
-### `npm test`
+Modules can be added to the sandbox by searching and selecting from a predefined list. Each module has properties such as name, image, and stats associated with it.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Arranging Modules
 
-### `npm run build`
+Modules can be arranged within a 12-slot grid. Users can drag and drop modules to different slots.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Editing Module Details
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Users can click on a module to view and edit its details in a modal. Details that can be edited include the module's level and other configurable properties.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Exporting and Importing Configurations
 
-### `npm run eject`
+The application supports exporting the current module configuration to a JSON file (`sandbox-config.json`). It also allows importing configurations from JSON files, updating the current state with the imported data.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run the application locally:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone this repository.
+2. Install dependencies using `npm install`.
+3. Start the development server with `npm start`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project Structure
 
-## Learn More
+The project is structured as follows:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **src/**
+  - [`App.css`](src/App.css): CSS styles for the main App component.
+  - [`App.js`](src/App.js): Main component handling the application routing and layout.
+  - [`App.test.js`](src/App.test.js): Test file for the App component.
+  - [`LandingPage.js`](src/LandingPage.js): Component for the landing page of the application.
+  - [`index.css`](src/index.css): Global styles for the application.
+  - [`index.js`](src/index.js): Entry point of the application.
+  - [`logo.svg`](src/logo.svg): Logo file for the application.
+  - [`reportWebVitals.js`](src/reportWebVitals.js): Utility for reporting web vitals.
+  - [`server.js`](src/server.js): Server script for local API caching.
+  - [`setupTests.js`](src/setupTests.js): Setup file for Jest tests.
+  
+- **src/components/**
+  - [`DraggableBox.js`](src/components/DraggableBox.js): Component representing draggable modules.
+  - [`GridSlot.js`](src/components/GridSlot.js): Component representing slots in the grid where modules can be placed.
+  - [`Header.css`](src/components/Header.css): CSS styles for the header component.
+  - [`Header.js`](src/components/Header.js): Component for the application header.
+  - [`Layout.css`](src/components/Layout.css): CSS styles for the application layout.
+  - [`Layout.js`](src/components/Layout.js): Component defining the main layout structure of the application.
+  - [`Modal.css`](src/components/Modal.css): CSS styles for the modal component.
+  - [`Modal.js`](src/components/Modal.js): Component for displaying a modal to edit module details.
+  - [`ModuleDisplay.css`](src/components/ModuleDisplay.css): CSS styles for displaying modules.
+  - [`ModuleDisplay.js`](src/components/ModuleDisplay.js): Component for displaying module details.
+  - [`ModuleSearch.js`](src/components/ModuleSearch.js): Component for searching and adding modules.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **src/pages/**
+  - [`Sandbox.css`](src/pages/Sandbox.css): CSS styles specific to the Sandbox page.
+  - [`Sandbox.js`](src/pages/Sandbox.js): Main component (`Sandbox`) where the main logic and state management of the application reside.
+  - [`User.css`](src/pages/User.css): CSS styles specific to the User page.
+  - [`User.js`](src/pages/User.js): Component for the User page.
+  - [`Zones.css`](src/pages/Zones.css): CSS styles specific to the Zones page.
+  - [`Zones.js`](src/pages/Zones.js): Component for the Zones page.
+  - [`dev.css`](src/pages/dev.css): CSS styles for development purposes.
+  - [`dev.js`](src/pages/dev.js): Development related component.
+  - [`sandbox.backup.js`](src/pages/sandbox.backup.js): Backup file related to the Sandbox page.
 
-### Code Splitting
+- **src/util/**
+  - [`api.js`](src/util/api.js): Utility functions for API interactions.
+  - [`helpers.js`](src/util/helpers.js): Additional helper functions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### API Integration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The application integrates with an external API to fetch module data. To run the application yourself, you need to provide your own Nexon API key by defining it as the `REACT_APP_API_KEY` environment variable.
 
-### Making a Progressive Web App
+### Local API (for Caching)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To avoid excessive requests to Nexon's API, module data is cached locally using a server (`server.js`) with Node.js.
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributions are welcome! If you find any issues or have suggestions for improvements, please submit an issue or a pull request.
