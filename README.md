@@ -1,4 +1,4 @@
-# API Tools and Resources for The First Descendant
+# DEAMON - **D**escendant **E**quipment **A**nd **M**odule **O**rganizer **N**exus
 
 This is a sandbox application built with React for managing and interacting with modular components.
 
