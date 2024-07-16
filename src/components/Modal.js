@@ -1,4 +1,6 @@
+// Modal.js
 import React, { useEffect, useRef } from 'react';
+import PropTypes from 'prop-types';
 import './Modal.css';
 
 const Modal = ({ isOpen, onClose, onSave, level, setLevel, minLevel, maxLevel }) => {
@@ -13,7 +15,7 @@ const Modal = ({ isOpen, onClose, onSave, level, setLevel, minLevel, maxLevel })
 
   const handleKeyPress = (e) => {
     if (e.key === 'Enter') {
-      handleSave();
+      saveModal();
     }
   };
 
@@ -22,7 +24,7 @@ const Modal = ({ isOpen, onClose, onSave, level, setLevel, minLevel, maxLevel })
     setLevel(value);
   };
 
-  const handleSave = () => {
+  const saveModal = () => {
     onSave();
   };
 
@@ -62,6 +64,16 @@ const Modal = ({ isOpen, onClose, onSave, level, setLevel, minLevel, maxLevel })
       </div>
     )
   );
+};
+
+Modal.propTypes = {
+  isOpen: PropTypes.bool.isRequired,
+  onClose: PropTypes.func.isRequired,
+  onSave: PropTypes.func.isRequired,
+  level: PropTypes.number.isRequired,
+  setLevel: PropTypes.func.isRequired,
+  minLevel: PropTypes.number.isRequired,
+  maxLevel: PropTypes.number.isRequired,
 };
 
 export default Modal;

@@ -138,6 +138,30 @@ app.get('/api/meta/modules', async (req, res) => {
   }
 });
 
+app.get('/api/meta/weapons', async (req, res) => {
+  try {
+    const data = await getCacheOrFetch('fetchAllWeapons', async () => {
+      const response = await axios.get('https://open.api.nexon.com/static/tfd/meta/en/weapon.json');
+      return response.data;
+    });
+    res.json(data);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.get('/api/meta/descendants', async (req, res) => {
+  try {
+    const data = await getCacheOrFetch('fetchAllDescendants', async () => {
+      const response = await axios.get('https://open.api.nexon.com/static/tfd/meta/en/descendant.json');
+      return response.data;
+    });
+    res.json(data);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
