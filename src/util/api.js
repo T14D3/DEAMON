@@ -47,12 +47,6 @@ const fetchAllModules = async () => {
   return response.data;
 };
 
-const fetchWeaponInfo = async (weaponId) => {
-  const response = await axios.get(`/api/meta/weapon`, {
-    params: { weapon_id: weaponId },
-  });
-  return response.data;
-};
 const fetchAllWeapons = async () => {
   const response = await axios.get(`/api/meta/weapons`);
   return response.data;
@@ -70,7 +64,6 @@ export {
   findDescendantData,
   fetchTitle,
   fetchModuleInfo,
-  fetchWeaponInfo,
   fetchAllModules,
   fetchAllWeapons,
   fetchAllDescendants,

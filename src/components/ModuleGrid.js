@@ -2,80 +2,53 @@ import React, { useState, useEffect } from 'react';
 import GridSlot from './GridSlot';
 import DraggableBox from './DraggableBox';
 import Modal from './Modal';
-import { fetchModuleInfo, findDescendantData, fetchWeaponInfo } from '../util/api'; // Adjust API functions as per your implementation
+import { fetchModuleInfo } from '../util/api';
 import './ModuleGrid.css';
 import Search from './Search';
 
-const ModuleGrid = ({ gridType, setGridType, boxes, setBoxes, moduleData, isWeaponModule, selectedDescendantId, setSelectedDescendantId, selectedWeaponId, setSelectedWeaponId }) => {
+const ModuleGrid = ({ gridType: initialGridType, boxes, setBoxes, moduleData, isWeaponModule }) => {
+  const [gridType, setGridType] = useState(initialGridType);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedBox, setSelectedBox] = useState(null);
   const [level, setLevel] = useState(1);
   const [minLevel, setMinLevel] = useState(0);
   const [maxLevel, setMaxLevel] = useState(7);
-  const [selectedDescendantName, setSelectedDescendantName] = useState('');
-  const [selectedWeaponName, setSelectedWeaponName] = useState('');
-
-  useEffect(() => {
-    const fetchDescendantName = async () => {
-      if (selectedDescendantId) {
-        try {
-          const descendantInfo = await findDescendantData(selectedDescendantId);
-          setSelectedDescendantName(descendantInfo.descendant_name);
-        } catch (error) {
-          console.error(`Error fetching descendant info for ID ${selectedDescendantId}:`, error);
-          setSelectedDescendantName('');
-        }
-      }
-    };
-
-    const fetchWeaponName = async () => {
-      if (selectedWeaponId) {
-        try {
-          const weaponInfo = await fetchWeaponInfo(selectedWeaponId);
-          setSelectedWeaponName(weaponInfo.weapon_name);
-        } catch (error) {
-          console.error(`Error fetching weapon info for ID ${selectedWeaponId}:`, error);
-          setSelectedWeaponName('');
-        }
-      }
-    };
-
-    fetchDescendantName();
-    fetchWeaponName();
-  }, [selectedDescendantId, selectedWeaponId]);
+  const [selectedDescendant, setSelectedDescendant] = useState(null);
+  const [selectedWeaponRoundsType, setSelectedWeaponRoundsType] = useState(null);
 
   const addBox = async (searchData) => {
     try {
+      console.log(`Data: `, JSON.stringify(searchData));
+
       if (searchData.searchType === 'module') {
         const currentGrid = [...boxes];
         if (currentGrid.some(box => box.moduleId === searchData.id)) {
           throw new Error('Module already added.');
         }
-  
+
         const moduleInfo = await fetchModuleInfo(searchData.id);
-  
         const defaultLevel = 0;
         const firstModuleStat = moduleInfo.module_stat[0];
         const moduleDrain = firstModuleStat.module_capacity;
-  
+
         const newBox = {
           id: currentGrid.length + 1,
           slot: findFirstFreeSlot(currentGrid),
           moduleId: moduleInfo.module_id,
-          moduleName: moduleInfo.module_name, // Fetch module name from API
+          moduleName: moduleInfo.module_name,
           moduleType: moduleInfo.module_type,
           imageUrl: `${moduleInfo.image_url}`,
           level: defaultLevel,
           moduleStats: moduleInfo.module_stat,
-          moduleDrain: moduleDrain, // Fetch module drain from API
+          moduleDrain: moduleDrain,
         };
-  
+
         console.log(`New box added to ${gridType} grid:`, newBox);
         setBoxes([...currentGrid, newBox]);
       } else if (searchData.searchType === 'descendant') {
-        setSelectedDescendantId(searchData.id);
+        setSelectedDescendant(searchData.name);
       } else if (searchData.searchType === 'weapon') {
-        setSelectedWeaponId(searchData.id);
+        setSelectedWeaponRoundsType(searchData.type);
         setGridType(searchData.type);
       }
     } catch (error) {
@@ -110,27 +83,15 @@ const ModuleGrid = ({ gridType, setGridType, boxes, setBoxes, moduleData, isWeap
     return Array.from({ length: 12 }, (_, i) => i).find(slot => !occupiedSlots.includes(slot));
   };
 
-  
-  const handleBoxClick = async (box) => {
-    try {
-      // Fetch module info asynchronously
-      const moduleInfo = await fetchModuleInfo(box.moduleId);
-  
-      // Determine maxLevel based on moduleInfo
-      const maxLevel = moduleInfo.module_stat.length > 0
-        ? moduleInfo.module_stat[moduleInfo.module_stat.length - 1].level
-        : 0;
-  
-      // Update state with selected box data and open modal
-      setSelectedBox({ ...box });
-      setLevel(box.level);
-      setMinLevel(0);
-      setMaxLevel(maxLevel);
-      setIsModalOpen(true);
-    } catch (error) {
-      console.error(`Error fetching module info for moduleId ${box.moduleId}:`, error);
-      // Handle error as needed
-    }
+  const handleBoxClick = (box) => {
+    const moduleInfo = moduleData.find(module => module.module_id === box.moduleId);
+    const maxLevel = moduleInfo.module_stat[moduleInfo.module_stat.length - 1].level;
+
+    setSelectedBox({ ...box });
+    setLevel(box.level);
+    setMinLevel(0);
+    setMaxLevel(maxLevel);
+    setIsModalOpen(true);
   };
 
   const handleModalClose = () => {
@@ -161,14 +122,14 @@ const ModuleGrid = ({ gridType, setGridType, boxes, setBoxes, moduleData, isWeap
             <div className="module-controls">
               <Search searchType='module' moduleType='Descendant' action={(searchData) => addBox(searchData)} />
               <Search searchType='descendant' action={(searchData) => addBox(searchData)} />
-              <p className='search-info'>{selectedDescendantName}</p>
+              <p className='search-info'>{selectedDescendant}</p>
             </div>
           )}
           {isWeaponModule && (
             <div className="module-controls">
               <Search searchType='module' moduleType={gridType} action={(searchData) => addBox(searchData)} />
               <Search searchType='weapon' action={(searchData) => addBox(searchData)} />
-              <p className='search-info'>{selectedWeaponName}</p>
+              <p className='search-info'>{selectedWeaponRoundsType}</p>
             </div>
           )}
         </>
