@@ -49,92 +49,53 @@ const Sandbox = () => {
   
     if (data) {
       const fetchModuleStats = async (boxes) => {
-        const updatedBoxes = [];
-        for (const box of boxes) {
+        const updatedBoxes = await Promise.all(boxes.map(async (box) => {
           try {
             const moduleInfo = await fetchModuleInfo(box.moduleId);
             if (!moduleInfo.module_stat || moduleInfo.module_stat.length === 0) {
               throw new Error('Module stats not found or empty.');
             }
             const moduleStats = moduleInfo.module_stat;
-            updatedBoxes.push({ ...box, moduleInfo, moduleStats });
+            return {
+              ...box,
+              moduleInfo,
+              moduleStats,
+              moduleName: moduleInfo.module_name,
+              moduleType: moduleInfo.module_type,
+              imageUrl: moduleInfo.image_url,
+              moduleDrain: moduleStats[0].module_capacity,
+            };
           } catch (error) {
             console.error(`Error fetching module info for box id ${box.id}:`, error);
-            updatedBoxes.push({ ...box, moduleInfo: null, moduleStats: [] });
+            return { ...box, moduleInfo: null, moduleStats: [], moduleName: '', moduleType: '', imageUrl: '', moduleDrain: 0 };
           }
-        }
+        }));
         return updatedBoxes;
       };
   
       for (const grid of data) {
+        let setBoxes, setGridType, setSelectedId;
         switch (grid.gridId) {
           case '1':
-            setGridType1(grid.gridType);
-            setSelectedDescendantId(grid.selectedDescendantId);
-            const boxes1WithStats = await fetchModuleStats(
-              grid.boxes.map((box) => ({ ...box, moduleId: box.moduleId }))
-            );
-            setBoxes1(
-              boxes1WithStats.map((box) => ({
-                ...box,
-                moduleName: box.moduleInfo ? box.moduleInfo.module_name : '',
-                moduleType: box.moduleInfo ? box.moduleInfo.module_type : '',
-                imageUrl: box.moduleInfo ? `${box.moduleInfo.image_url}` : '',
-                moduleDrain: box.moduleStats.length > 0 ? box.moduleStats[0].module_capacity : 0,
-              }))
-            );
+            [setGridType, setSelectedId, setBoxes] = [setGridType1, setSelectedDescendantId, setBoxes1];
             break;
           case '2':
-            setGridType2(grid.gridType);
-            setSelectedWeapon1Id(grid.selectedWeaponId);
-            const boxes2WithStats = await fetchModuleStats(
-              grid.boxes.map((box) => ({ ...box, moduleId: box.moduleId }))
-            );
-            setBoxes2(
-              boxes2WithStats.map((box) => ({
-                ...box,
-                moduleName: box.moduleInfo ? box.moduleInfo.module_name : '',
-                moduleType: box.moduleInfo ? box.moduleInfo.module_type : '',
-                imageUrl: box.moduleInfo ? `${box.moduleInfo.image_url}` : '',
-                moduleDrain: box.moduleStats.length > 0 ? box.moduleStats[0].module_capacity : 0,
-              }))
-            );
+            [setGridType, setSelectedId, setBoxes] = [setGridType2, setSelectedWeapon1Id, setBoxes2];
             break;
           case '3':
-            setGridType3(grid.gridType);
-            setSelectedWeapon2Id(grid.selectedWeaponId);
-            const boxes3WithStats = await fetchModuleStats(
-              grid.boxes.map((box) => ({ ...box, moduleId: box.moduleId }))
-            );
-            setBoxes3(
-              boxes3WithStats.map((box) => ({
-                ...box,
-                moduleName: box.moduleInfo ? box.moduleInfo.module_name : '',
-                moduleType: box.moduleInfo ? box.moduleInfo.module_type : '',
-                imageUrl: box.moduleInfo ? `${box.moduleInfo.image_url}` : '',
-                moduleDrain: box.moduleStats.length > 0 ? box.moduleStats[0].module_capacity : 0,
-              }))
-            );
+            [setGridType, setSelectedId, setBoxes] = [setGridType3, setSelectedWeapon2Id, setBoxes3];
             break;
           case '4':
-            setGridType4(grid.gridType);
-            setSelectedWeapon3Id(grid.selectedWeaponId);
-            const boxes4WithStats = await fetchModuleStats(
-              grid.boxes.map((box) => ({ ...box, moduleId: box.moduleId }))
-            );
-            setBoxes4(
-              boxes4WithStats.map((box) => ({
-                ...box,
-                moduleName: box.moduleInfo ? box.moduleInfo.module_name : '',
-                moduleType: box.moduleInfo ? box.moduleInfo.module_type : '',
-                imageUrl: box.moduleInfo ? `${box.moduleInfo.image_url}` : '',
-                moduleDrain: box.moduleStats.length > 0 ? box.moduleStats[0].module_capacity : 0,
-              }))
-            );
+            [setGridType, setSelectedId, setBoxes] = [setGridType4, setSelectedWeapon3Id, setBoxes4];
             break;
           default:
-            break;
+            continue;
         }
+  
+        setGridType(grid.gridType);
+        setSelectedId(grid.selectedDescendantId || grid.selectedWeaponId);
+        const boxesWithStats = await fetchModuleStats(grid.boxes);
+        setBoxes(boxesWithStats);
       }
     }
   };
