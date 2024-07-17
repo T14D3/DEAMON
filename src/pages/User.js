@@ -28,6 +28,7 @@ const User = () => {
   const [moduleSetups, setModuleSetups] = useState([]);
 
   useEffect(() => {
+    document.title = 'DEAMON // User // ' + name;
     const fetchData = async () => {
       setLoading(true);
       setError(null);

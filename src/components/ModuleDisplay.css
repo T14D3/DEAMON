@@ -5,7 +5,7 @@
   width: 80%; /* Same width as other containers */
 }
 
-.module-grid-container {
+.user-module-grid-container {
   background-color: #333; /* Dark-gray background */
   display: flex;
   justify-content: center;
@@ -14,7 +14,7 @@
   padding: 20px 0; /* Added padding for spacing */
 }
 
-.module-grid {
+.user-module-grid {
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(6, 1fr);

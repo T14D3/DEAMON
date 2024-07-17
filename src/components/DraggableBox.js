@@ -44,7 +44,7 @@ const DraggableBox = ({ box, moveBox, onClick }) => {
 
       }}
       >{box.moduleDrain}</span>
-      <span className="draggable-box-text"style={{marginTop: '50px', textAlign: 'center', fontSize: '20px'}}>{box.moduleName}</span>
+      <span className="draggable-box-text"style={{marginTop: '60px', textAlign: 'center', fontSize: '18px', maxWidth: '90%', alignSelf: 'center'}}>{box.moduleName}</span>
       
     </div>
   );

@@ -47,8 +47,8 @@ const ModuleDisplay = ({ moduleSetups }) => {
   return (
     <div className="module-display">
       <h2>Modules</h2>
-      <div className="module-grid-container">
-        <div className="module-grid">
+      <div className="user-module-grid-container">
+        <div className="user-module-grid">
           {Object.entries(modulesMap).map(([slotId, { row, col }]) => {
             const module = modules[slotId];
             const lastLevel = module ? getLastLevel(module) : null;

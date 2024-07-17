@@ -14,6 +14,7 @@ const ModuleGrid = ({ gridType, setGridType, boxes, setBoxes, moduleData, isWeap
   const [maxLevel, setMaxLevel] = useState(7);
   const [selectedDescendantName, setSelectedDescendantName] = useState('');
   const [selectedWeaponName, setSelectedWeaponName] = useState('');
+  const [modalModuleData, setModalModuleData] = useState(null);
 
   useEffect(() => {
     const fetchDescendantName = async () => {
@@ -62,12 +63,12 @@ const ModuleGrid = ({ gridType, setGridType, boxes, setBoxes, moduleData, isWeap
           id: currentGrid.length + 1,
           slot: findFirstFreeSlot(currentGrid),
           moduleId: moduleInfo.module_id,
-          moduleName: moduleInfo.module_name, // Fetch module name from API
+          moduleName: moduleInfo.module_name,
           moduleType: moduleInfo.module_type,
           imageUrl: `${moduleInfo.image_url}`,
           level: defaultLevel,
           moduleStats: moduleInfo.module_stat,
-          moduleDrain: moduleDrain, // Fetch module drain from API
+          moduleDrain: moduleDrain,
         };
   
         console.log(`New box added to ${gridType} grid:`, newBox);
@@ -110,18 +111,14 @@ const ModuleGrid = ({ gridType, setGridType, boxes, setBoxes, moduleData, isWeap
     return Array.from({ length: 12 }, (_, i) => i).find(slot => !occupiedSlots.includes(slot));
   };
 
-  
   const handleBoxClick = async (box) => {
     try {
-      // Fetch module info asynchronously
       const moduleInfo = await fetchModuleInfo(box.moduleId);
-  
-      // Determine maxLevel based on moduleInfo
       const maxLevel = moduleInfo.module_stat.length > 0
         ? moduleInfo.module_stat[moduleInfo.module_stat.length - 1].level
         : 0;
-  
-      // Update state with selected box data and open modal
+
+      setModalModuleData(moduleInfo);
       setSelectedBox({ ...box });
       setLevel(box.level);
       setMinLevel(0);
@@ -129,7 +126,6 @@ const ModuleGrid = ({ gridType, setGridType, boxes, setBoxes, moduleData, isWeap
       setIsModalOpen(true);
     } catch (error) {
       console.error(`Error fetching module info for moduleId ${box.moduleId}:`, error);
-      // Handle error as needed
     }
   };
 
@@ -152,26 +148,31 @@ const ModuleGrid = ({ gridType, setGridType, boxes, setBoxes, moduleData, isWeap
     handleModalClose();
   };
 
+  const handleModalRemove = () => {
+    const currentGrid = [...boxes];
+    const updatedBoxes = currentGrid.filter(box => box.id !== selectedBox.id);
+    setBoxes(updatedBoxes);
+    handleModalClose();
+  };
+
   return (
     <div className="module-grid">
       <div className="module-header">
         <h2>{gridType}</h2>
-        <>
-          {!isWeaponModule && (
-            <div className="module-controls">
-              <Search searchType='module' moduleType='Descendant' action={(searchData) => addBox(searchData)} />
-              <Search searchType='descendant' action={(searchData) => addBox(searchData)} />
-              <p className='search-info'>{selectedDescendantName}</p>
-            </div>
-          )}
-          {isWeaponModule && (
-            <div className="module-controls">
-              <Search searchType='module' moduleType={gridType} action={(searchData) => addBox(searchData)} />
-              <Search searchType='weapon' action={(searchData) => addBox(searchData)} />
-              <p className='search-info'>{selectedWeaponName}</p>
-            </div>
-          )}
-        </>
+        {!isWeaponModule && (
+          <div className="module-controls">
+            <Search searchType='module' moduleType='Descendant' action={(searchData) => addBox(searchData)} />
+            <Search searchType='descendant' action={(searchData) => addBox(searchData)} />
+            <p className='search-info'>{selectedDescendantName || 'No Descendant selected'}</p>
+          </div>
+        )}
+        {isWeaponModule && (
+          <div className="module-controls">
+            <Search searchType='module' moduleType={gridType} action={(searchData) => addBox(searchData)} />
+            <Search searchType='weapon' action={(searchData) => addBox(searchData)} />
+            <p className='search-info'>{selectedWeaponName || 'No Weapon selected'}</p>
+          </div>
+        )}
       </div>
       <div className="grid">
         {Array.from({ length: 12 }, (_, i) => i).map(slot => (
@@ -189,10 +190,12 @@ const ModuleGrid = ({ gridType, setGridType, boxes, setBoxes, moduleData, isWeap
           isOpen={isModalOpen}
           onClose={handleModalClose}
           onSave={handleModalSave}
+          onRemove={handleModalRemove}
           level={level}
           setLevel={setLevel}
           minLevel={minLevel}
           maxLevel={maxLevel}
+          moduleData={modalModuleData}
         />
       )}
     </div>

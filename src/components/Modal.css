@@ -1,4 +1,3 @@
-/* Modal Styles */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -13,13 +12,19 @@
 }
 
 .modal-content {
+  position: relative; /* Ensure the close button is positioned relative to the modal content */
   background: #222;
-  padding: 5px;
+  padding: 20px;
   border-radius: 5px;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  text-align: center;
   border: 1px solid #3aa0ac;
+  min-width: 350px;
+}
+
+.modal-info {
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 .modal-input {
@@ -29,6 +34,7 @@
   border: none;
   color: #3aa0ac;
   outline: none; /* Remove white outline */
+  appearance: none;;
   -webkit-appearance: none; /* Remove up/down buttons in Chrome/Safari */
   -moz-appearance: textfield; /* Remove up/down buttons in Firefox */
   padding: 5px; /* Add some padding for better look */
@@ -40,4 +46,60 @@
 .modal-input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0; /* Remove margin in Chrome/Safari */
+}
+
+.modal-remove-button {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #522;
+  color: #fff;
+  border: solid 2px #f00;
+  border-radius: 5px;
+  width: 40px; 
+  height: 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.modal-close-button,
+.modal-save-button {
+  position: absolute;
+  bottom: -20px;
+  background: #444;
+  color: #fff;
+  border: solid 1px #3aa0ac;
+  border-radius: 5px;
+  width: 100px;
+  height: 40px;
+  font-size: 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.modal-close-button span,
+.modal-save-button span {
+  position: absolute;
+  top: -5%;
+}
+
+.modal-close-button:hover,
+.modal-save-button:hover {
+  background: #666;
+}
+.modal-close-button {
+  left: 5%;
+}
+.modal-save-button {
+  right: 5%;
+}
+
+.no-scroll {
+  overflow: hidden;
 }

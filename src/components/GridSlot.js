@@ -27,8 +27,8 @@ const GridSlot = ({ slot, children, moveBox, imageUrl }) => {
         position: 'relative',
         backgroundColor: 'none',
         background: isEmpty ? `url(https://tfdvod.dn.nexoncdn.co.kr/img/cbt/recommend/module__none_dummy.png) center / cover no-repeat` : 'none',
-        margin: '10px', // Spacing between slots
-        boxShadow: isOver ? '0 0 15px rgba(200, 200, 200, 0.9), inset 0 0 10px rgba(200, 200, 200, 1)' : 'none', // Shadow-like highlight
+        boxShadow: isOver ? '0 0 15px rgba(200, 200, 200, 1), inset 0 0 10px rgba(200, 200, 200, 1)' : 'none', // Shadow-like highlight
+        borderRadius: '7px',
       }}
     >
       {children}

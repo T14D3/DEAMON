@@ -1,12 +1,17 @@
 const express = require('express');
 const axios = require('axios');
 const NodeCache = require('node-cache');
+const { saveData, loadData } = require('./util/db'); // Import db module
 const app = express();
 const port = 5000;
 
 const API_KEY = 'INSERT_YOUR_API_KEY_HERE';
 const cache = new NodeCache({ stdTTL: 120 }); // Cache for 2 minutes
 
+// Middleware to parse JSON bodies
+app.use(express.json());
+
+// Function to fetch data from API or cache
 const getCacheOrFetch = async (key, fetchFn) => {
   const cachedData = cache.get(key);
   if (cachedData) {
@@ -17,6 +22,33 @@ const getCacheOrFetch = async (key, fetchFn) => {
   return data;
 };
 
+// POST endpoint to save build data
+app.post('/api/save', async (req, res) => {
+  const { data } = req.body; // Extract data directly from req.body
+  
+  try {
+    const result = await saveData(data); // Pass data to saveData function
+    res.json(result);
+  } catch (error) {
+    console.error('Error saving data:', error);
+    res.status(500).json({ success: false, message: 'Failed to save data' });
+  }
+});
+
+// Endpoint to load build data
+app.get('/api/load/:id', async (req, res) => {
+  const { id } = req.params;
+  
+  try {
+    const data = await loadData(id);
+    res.json(data);
+  } catch (error) {
+    console.error('Error loading data:', error);
+    res.status(404).json({ success: false, message: 'Data not found' });
+  }
+});
+
+// Endpoint to fetch user OUID
 app.get('/api/user/ouid', async (req, res) => {
   const { user_name } = req.query;
   const encodedHeader = encodeURIComponent(user_name);
@@ -31,10 +63,12 @@ app.get('/api/user/ouid', async (req, res) => {
     });
     res.json(data);
   } catch (error) {
+    console.error('Error fetching user OUID:', error);
     res.status(500).json({ error: error.message });
   }
 });
 
+// Endpoint to fetch user basic info
 app.get('/api/user/info', async (req, res) => {
   const { ouid } = req.query;
   const cacheKey = `fetchUserInfo_${ouid}`;
@@ -48,10 +82,12 @@ app.get('/api/user/info', async (req, res) => {
     });
     res.json(data);
   } catch (error) {
+    console.error('Error fetching user info:', error);
     res.status(500).json({ error: error.message });
   }
 });
 
+// Endpoint to fetch user descendant info
 app.get('/api/user/descendant', async (req, res) => {
   const { ouid } = req.query;
   const cacheKey = `fetchDescendant_${ouid}`;
@@ -65,10 +101,12 @@ app.get('/api/user/descendant', async (req, res) => {
     });
     res.json(data);
   } catch (error) {
+    console.error('Error fetching user descendant info:', error);
     res.status(500).json({ error: error.message });
   }
 });
 
+// Endpoint to fetch descendant metadata by ID
 app.get('/api/meta/descendant', async (req, res) => {
   const { descendant_id } = req.query;
   const cacheKey = `findDescendantData_${descendant_id}`;
@@ -84,10 +122,12 @@ app.get('/api/meta/descendant', async (req, res) => {
     });
     res.json(data);
   } catch (error) {
+    console.error('Error fetching descendant metadata:', error);
     res.status(500).json({ error: error.message });
   }
 });
 
+// Endpoint to fetch title metadata by ID
 app.get('/api/meta/title', async (req, res) => {
   const { title_id } = req.query;
   const cacheKey = `fetchTitle_${title_id}`;
@@ -103,10 +143,12 @@ app.get('/api/meta/title', async (req, res) => {
     });
     res.json(data);
   } catch (error) {
+    console.error('Error fetching title metadata:', error);
     res.status(500).json({ error: error.message });
   }
 });
 
+// Endpoint to fetch module metadata by ID
 app.get('/api/meta/module', async (req, res) => {
   const { module_id } = req.query;
   const cacheKey = `fetchModuleInfo_${module_id}`;
@@ -122,10 +164,12 @@ app.get('/api/meta/module', async (req, res) => {
     });
     res.json(data);
   } catch (error) {
+    console.error('Error fetching module metadata:', error);
     res.status(500).json({ error: error.message });
   }
 });
 
+// Endpoint to fetch all module metadata
 app.get('/api/meta/modules', async (req, res) => {
   try {
     const data = await getCacheOrFetch('fetchAllModules', async () => {
@@ -134,10 +178,12 @@ app.get('/api/meta/modules', async (req, res) => {
     });
     res.json(data);
   } catch (error) {
+    console.error('Error fetching all module metadata:', error);
     res.status(500).json({ error: error.message });
   }
 });
 
+// Endpoint to fetch weapon metadata by ID
 app.get('/api/meta/weapon', async (req, res) => {
   const { weapon_id } = req.query;
   const cacheKey = `fetchWeaponInfo_${weapon_id}`;
@@ -153,9 +199,12 @@ app.get('/api/meta/weapon', async (req, res) => {
     });
     res.json(data);
   } catch (error) {
+    console.error('Error fetching weapon metadata:', error);
     res.status(500).json({ error: error.message });
   }
 });
+
+// Endpoint to fetch all weapon metadata
 app.get('/api/meta/weapons', async (req, res) => {
   try {
     const data = await getCacheOrFetch('fetchAllWeapons', async () => {
@@ -164,10 +213,12 @@ app.get('/api/meta/weapons', async (req, res) => {
     });
     res.json(data);
   } catch (error) {
+    console.error('Error fetching all weapon metadata:', error);
     res.status(500).json({ error: error.message });
   }
 });
 
+// Endpoint to fetch all descendant metadata
 app.get('/api/meta/descendants', async (req, res) => {
   try {
     const data = await getCacheOrFetch('fetchAllDescendants', async () => {
@@ -176,10 +227,12 @@ app.get('/api/meta/descendants', async (req, res) => {
     });
     res.json(data);
   } catch (error) {
+    console.error('Error fetching all descendant metadata:', error);
     res.status(500).json({ error: error.message });
   }
 });
 
+// Start the server
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });

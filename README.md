@@ -27,7 +27,7 @@ Users can click on a module to view and edit its details in a modal. Details tha
 
 ### Exporting and Importing Configurations
 
-The application supports exporting the current module configuration to a JSON file (`sandbox-config.json`). It also allows importing configurations from JSON files, updating the current state with the imported data.
+The application supports creating complex module, weapon, and descendant configurations, and allows users to easily store them server-side and provides a short link for convenient sharing!
 
 ## Setup
 
@@ -39,6 +39,8 @@ To run the application locally:
 
 ## Project Structure
 
+### Project Structure
+
 The project is structured as follows:
 
 - **src/**
@@ -48,11 +50,10 @@ The project is structured as follows:
   - [`LandingPage.js`](src/LandingPage.js): Component for the landing page of the application.
   - [`index.css`](src/index.css): Global styles for the application.
   - [`index.js`](src/index.js): Entry point of the application.
-  - [`logo.svg`](src/logo.svg): Logo file for the application.
   - [`reportWebVitals.js`](src/reportWebVitals.js): Utility for reporting web vitals.
-  - [`server.js`](src/server.js): Server script for local API caching.
+  - [`server_example.js`](src/server_example.js): Example server script for reference.
   - [`setupTests.js`](src/setupTests.js): Setup file for Jest tests.
-  
+
 - **src/components/**
   - [`DraggableBox.js`](src/components/DraggableBox.js): Component representing draggable modules.
   - [`GridSlot.js`](src/components/GridSlot.js): Component representing slots in the grid where modules can be placed.
@@ -64,7 +65,9 @@ The project is structured as follows:
   - [`Modal.js`](src/components/Modal.js): Component for displaying a modal to edit module details.
   - [`ModuleDisplay.css`](src/components/ModuleDisplay.css): CSS styles for displaying modules.
   - [`ModuleDisplay.js`](src/components/ModuleDisplay.js): Component for displaying module details.
-  - [`ModuleSearch.js`](src/components/ModuleSearch.js): Component for searching and adding modules.
+  - [`ModuleGrid.css`](src/components/ModuleGrid.css): CSS styles for the module grid component.
+  - [`ModuleGrid.js`](src/components/ModuleGrid.js): Component for displaying a grid of modules.
+  - [`Search.js`](src/components/Search.js): Component for searching and adding modules.
 
 - **src/pages/**
   - [`Sandbox.css`](src/pages/Sandbox.css): CSS styles specific to the Sandbox page.
@@ -75,11 +78,12 @@ The project is structured as follows:
   - [`Zones.js`](src/pages/Zones.js): Component for the Zones page.
   - [`dev.css`](src/pages/dev.css): CSS styles for development purposes.
   - [`dev.js`](src/pages/dev.js): Development related component.
-  - [`sandbox.backup.js`](src/pages/sandbox.backup.js): Backup file related to the Sandbox page.
 
 - **src/util/**
   - [`api.js`](src/util/api.js): Utility functions for API interactions.
+  - [`db.js`](src/util/db.js): Database utility functions.
   - [`helpers.js`](src/util/helpers.js): Additional helper functions.
+
 
 
 ### API Integration

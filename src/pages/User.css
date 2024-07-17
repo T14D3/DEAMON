@@ -170,18 +170,6 @@ button:disabled {
   margin-top: 20px;
 }
 
-.module-grid-container {
-  background-color: #333; /* Dark-gray background */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.module-grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  justify-content: center;
-}
 
 .module-item {
   position: relative;

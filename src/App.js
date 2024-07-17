@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useParams, Navigate } from 'react-router-dom';
 import Layout from './components/Layout';
 import './App.css';
 
@@ -23,12 +23,21 @@ function App() {
             <Route path="/zones" element={<Zones />} />
             <Route path="/user/:name/*" element={<User />} />
             <Route path="/sandbox" element={<Sandbox />} />
-            
+            <Route path="/sandbox/:id" element={<Sandbox />} />
+
+            {/* Redirect /b/:id to /sandbox/:id */}
+            <Route path="/b/:id" element={<RedirectToSandbox />} />
           </Routes>
         </Layout>
       </Suspense>
     </Router>
   );
+}
+
+// Define a component to handle redirection from /b/:id to /sandbox/:id
+function RedirectToSandbox() {
+  let { id } = useParams(); // Make sure to import useParams from react-router-dom
+  return <Navigate to={`/sandbox/${id}`} />;
 }
 
 export default App;
