@@ -62,6 +62,16 @@ const fetchAllDescendants = async () => {
   const response = await axios.get(`/api/meta/descendants`);
   return response.data;
 };
+const fetchAllStats = async () => {
+  const response = await axios.get(`/api/meta/stats`);
+  return response.data;
+};
+const fetchStatName = async (statId) => {
+  const response = await axios.get(`/api/meta/stat`, {
+    params: { stat_id: statId },
+  });
+  return response.data.stat_name;
+};
 
 export {
   fetchUserOUID,
@@ -74,4 +84,6 @@ export {
   fetchAllModules,
   fetchAllWeapons,
   fetchAllDescendants,
+  fetchStatName,
+  fetchAllStats,
 };
