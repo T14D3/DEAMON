@@ -28,7 +28,8 @@ const Sandbox = () => {
   const [gridType3, setGridType3] = useState("Impact Rounds");
   const [gridType4, setGridType4] = useState("High-Power Rounds");
 
-  const [buildId, setBuildId] = useState(null); // State to hold the build ID
+  const [buildId, setBuildId] = useState(null);
+  const [showStats, setShowStats] = useState(false);
 
   const location = useLocation();
   const navigate = useNavigate();
@@ -185,8 +186,11 @@ const Sandbox = () => {
     <DndProvider backend={HTML5Backend}>
       <div className="sandbox">
       <ToastContainer />
-      <button title='Save Build to Server
+      <div className='sandbox-header'>
+        <button title='Save Build to Server
 Note: Will be stored for 30 days' onClick={saveBuildToServer} className='save-button'><FontAwesomeIcon icon={faFloppyDisk} style={{marginRight: '7px'}} />Save Build to Server</button>
+        <button className='stats-button' onClick={() => setShowStats(!showStats)}>Stats</button>
+      </div>
         <ModuleGrid
           gridType={gridType1}
           setGridType={setGridType1}
@@ -196,6 +200,7 @@ Note: Will be stored for 30 days' onClick={saveBuildToServer} className='save-bu
           isWeaponModule={false}
           selectedDescendantId={selectedDescendantId}
           setSelectedDescendantId={setSelectedDescendantId}
+          showStats={showStats}
         />
         <ModuleGrid
           gridType={gridType2}
@@ -206,6 +211,7 @@ Note: Will be stored for 30 days' onClick={saveBuildToServer} className='save-bu
           isWeaponModule={true}
           selectedWeaponId={selectedWeapon1Id}
           setSelectedWeaponId={setSelectedWeapon1Id}
+          showStats={showStats}
         />
         <ModuleGrid
           gridType={gridType3}
@@ -216,6 +222,7 @@ Note: Will be stored for 30 days' onClick={saveBuildToServer} className='save-bu
           isWeaponModule={true}
           selectedWeaponId={selectedWeapon2Id}
           setSelectedWeaponId={setSelectedWeapon2Id}
+          showStats={showStats}
         />
         <ModuleGrid
           gridType={gridType4}
@@ -226,6 +233,7 @@ Note: Will be stored for 30 days' onClick={saveBuildToServer} className='save-bu
           isWeaponModule={true}
           selectedWeaponId={selectedWeapon3Id}
           setSelectedWeaponId={setSelectedWeapon3Id}
+          showStats={showStats}
         />
       </div>
     </DndProvider>
