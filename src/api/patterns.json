@@ -1,0 +1,3558 @@
+[
+    {
+        "pattern_id": "001",
+        "source_map": "Kingston",
+        "source_activity": "Fallen Theater: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Lepic Stabilizer Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "The Final Masterpiece Nano Tube",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Piercing Light Nano Tube",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Nazeistra's Devotion Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "1"
+    },
+    {
+        "pattern_id": "002",
+        "source_map": "Kingston",
+        "source_activity": "Magister Lab",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Afterglow Sword Polymer Syncytium",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Greg's Reversed Fate Synthetic Fiber Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Smithereens Synthetic Fiber Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Gley Code",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "1"
+    },
+    {
+        "pattern_id": "003",
+        "source_map": "Kingston",
+        "source_activity": "Slumber Valley",
+        "pattern_contents": [
+            {
+                "content_name": "Jayber Enhanced Cells Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Enzo Enhanced Cells Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Albion Cavalry Gun Nano Tube",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Nazeistra's Devotion Polymer Syncytium",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "1"
+    },
+    {
+        "pattern_id": "004",
+        "source_map": "Kingston",
+        "source_activity": "Defend Albion Resource",
+        "pattern_contents": [
+            {
+                "content_name": "Secret Garden Nano Tube",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Viessa Enhanced Cells Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Lepic Stabilizer Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Wave of Light Polymer Syncytium",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "1"
+    },
+    {
+        "pattern_id": "005",
+        "source_map": "Kingston",
+        "source_activity": "Defend Albion Resource",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Executor Nano Tube",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ajax Enhanced Cells Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Python Synthetic Fiber",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "The Final Masterpiece Polymer Syncytium",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "1"
+    },
+    {
+        "pattern_id": "006",
+        "source_map": "Sterile Land",
+        "source_activity": "Rockfall: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Ultimate Lepic Spiral Catalyst Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Smithereens Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Restored Relic Polymer Syncytium Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Valby Code",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "2"
+    },
+    {
+        "pattern_id": "007",
+        "source_map": "Sterile Land",
+        "source_activity": "The Repository: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Kyle Code",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Python Nano Tube",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Nazeistra's Devotion Polymer Syncytium",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Albion Cavalry Gun Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "2"
+    },
+    {
+        "pattern_id": "008",
+        "source_map": "Sterile Land",
+        "source_activity": "Classified Area: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "King#s Guard Lance Polymer Syncytium Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Greg's Reversed Fate Polymer Syncytium Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Viessa Spiral Catalyst Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Piercing Light Polymer Syncytium",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "2"
+    },
+    {
+        "pattern_id": "009",
+        "source_map": "Sterile Land",
+        "source_activity": "The Forgottense",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Bunny Enhanced Cells Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "King's Guard Lance Synthetic Fiber Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Valby Spiral Catalyst Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Python Synthetic Fiber",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "2"
+    },
+    {
+        "pattern_id": "010",
+        "source_map": "Sterile Land",
+        "source_activity": "Unknown Laboratory",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Blue Beetle Polymer Syncytium Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Lepic Spiral Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Nazeistra's Devotion Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Divine Punishment Synthetic Fiber Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "2"
+    },
+    {
+        "pattern_id": "011",
+        "source_map": "Sterile Land",
+        "source_activity": "Block Kuiper Mining",
+        "pattern_contents": [
+            {
+                "content_name": "Perforator Polymer Syncytium",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Divine Punishment Polymer Syncytium Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Enzo Spiral Catalyst Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "The Final Masterpiece Nano Tube",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "2"
+    },
+    {
+        "pattern_id": "012",
+        "source_map": "Sterile Land",
+        "source_activity": "Block Kuiper Mining",
+        "pattern_contents": [
+            {
+                "content_name": "Amorphous Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Enduring Legacy Synthetic Fiber",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Lepic Enhanced Cells Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Greg's Reversed Fate Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Gley Enhanced Cells Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "2"
+    },
+    {
+        "pattern_id": "013",
+        "source_map": "Vespers",
+        "source_activity": "Lumber Yard: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Lepic Code",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Gley Stabilizer Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "King's Guard Synthetic Fiber Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "The Final Masterpiece Synthetic Fiber",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "014",
+        "source_map": "Vespers",
+        "source_activity": "Lost Supply Depot: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Perforator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Divine Punishment Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Viessa Stabilizer Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Smithereens Nano Tube Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "015",
+        "source_map": "Vespers",
+        "source_activity": "Moonlight Lake: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Esiemo Spiral Catalyst Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Restored Relic Polymer Syncytium Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Albion Cavalry Gun Nano Tube",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Nazeistra's Devotion Nano Tube",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "016",
+        "source_map": "Vespers",
+        "source_activity": "Sepulcher",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Secret Garden Polymer Syncytium",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Wave of Light Synthetic Fiber",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Albion Cavalry Gun Polymer Syncytium",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Valby Enhanced Cells Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "017",
+        "source_map": "Vespers",
+        "source_activity": "The Shelter",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Bunny Spiral Catalyst Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Kyle Stabilizer Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Nazeistra's Devotion Synthetic Fiber",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Smithereens Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "018",
+        "source_map": "Vespers",
+        "source_activity": "Neutralize Void Experiment",
+        "pattern_contents": [
+            {
+                "content_name": "Perforator Synthetic Fiber",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Viessa Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "The Final Masterpiece Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Greg's Reversed Fate Nano Tube Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "019",
+        "source_map": "Vespers",
+        "source_activity": "Neutralize Void Experiment",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Ajax Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Piercing Light Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Blue Beetle Nano Tube Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Lepic Stabilizer Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "020",
+        "source_map": "Echo Swamp",
+        "source_activity": "Muskeg Swamp: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Executor Synthetic Fiber",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Restored Relic Synthetic Fiber Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Valby Stabilizer Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Albion Cavalry Gun Synthetic Fiber",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "4"
+    },
+    {
+        "pattern_id": "021",
+        "source_map": "Echo Swamp",
+        "source_activity": "Derelict Covert: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Lepic Code",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Piercing Light Synthetic Fiber",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Nazeistra's Devotion Synthetic Fiber",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Enzo Spiral Catalyst Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "4"
+    },
+    {
+        "pattern_id": "022",
+        "source_map": "Echo Swamp",
+        "source_activity": "Seed Vault",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Esiemo Enhanced Cells Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Divine Punishment Nano Tube Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Nazeistra's Devotion Nano Tube",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Smithereens Nano Tube Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "4"
+    },
+    {
+        "pattern_id": "023",
+        "source_map": "Echo Swamp",
+        "source_activity": "The Chapel",
+        "pattern_contents": [
+            {
+                "content_name": "Blue Beetle Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Valby Spiral Catalyst Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Restored Relic Nano Tube Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Greg's Reversed Fate Synthetic Fiber Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "4"
+    },
+    {
+        "pattern_id": "024",
+        "source_map": "Echo Swamp",
+        "source_activity": "Defend Albion Resource",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Bunny Stabilizer Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Viessa Stabilizer Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Smithereens Synthetic Fiber Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Nazeistra's Devotion Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "4"
+    },
+    {
+        "pattern_id": "025",
+        "source_map": "Echo Swamp",
+        "source_activity": "Defend Albion Resource",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Python Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Blue Beetle Synthetic Fiber Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Enzo Code",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Nazeistra's Devotion Synthetic Fiber",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "4"
+    },
+    {
+        "pattern_id": "026",
+        "source_map": "Agna Desert",
+        "source_activity": "Vermilion Waste: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Ultimate Epic Enhanced Cells Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Afterglow Sword Synthetic Fiber",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Blue Beetle Nano Tube Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Valby Spiral Catalyst Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "027",
+        "source_map": "Agna Desert",
+        "source_activity": "Storage: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Perforator Synthetic Fiber",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Smithereens Polymer Syncytium Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Ajax Enhanced Cells Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Albion Cavalry Gun Polymer Syncytium",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "028",
+        "source_map": "Agna Desert",
+        "source_activity": "Miragestone: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Gley Spiral Catalyst Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Greg's Reversed Fate Nano Tube Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Smithereens Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Enzo Enhanced Cells Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "029",
+        "source_map": "Agna Desert",
+        "source_activity": "The Asylum",
+        "pattern_contents": [
+            {
+                "content_name": "Secret Garden Synthetic Fiber",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Python Polymer Syncytium",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Valby Stabilizer Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Greg's Reversed Fate Polymer Syncytium Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "030",
+        "source_map": "Agna Desert",
+        "source_activity": "Caligo Ossuary",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Clairvoyance Synthetic Fiber Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Viessa Code",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Albion Cavalry Gun Synthetic Fiber",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "The Final Masterpiece Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "031",
+        "source_map": "Agna Desert",
+        "source_activity": "Neutralize Void Experiment",
+        "pattern_contents": [
+            {
+                "content_name": "Ajax Spiral Catalyst Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Executor Polymer Syncytium",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "The Final Masterpiece Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Albion Cavalry Gun Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "032",
+        "source_map": "Agna Desert",
+        "source_activity": "Neutralize Void Experiment",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Wave of Light Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Secret Garden Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Valby Code",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Restored Relic Nano Tube Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "033",
+        "source_map": "White-night Gulch",
+        "source_activity": "The Mountaintops: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Yujin Spiral Catalyst Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Restored Relic Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Valby Enhanced Cells Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Piercing Light Polymer Syncytium",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "6"
+    },
+    {
+        "pattern_id": "034",
+        "source_map": "White-night Gulch",
+        "source_activity": "Shipment Base: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Amorphous Material Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Secret Garden Polymer Syncytium",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "The Final Masterpiece Polymer Syncytium",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Greg's Reversed Fate Synthetic Fiber Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Viessa Enhanced Cells Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "6"
+    },
+    {
+        "pattern_id": "035",
+        "source_map": "White-night Gulch",
+        "source_activity": "Hatchery: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Ajax Enhanced Cells Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Blue Beetle Synthetic Fiber Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Enzo Code",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "King's Guard Lance Nano Tube Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "6"
+    },
+    {
+        "pattern_id": "036",
+        "source_map": "White-night Gulch",
+        "source_activity": "Mytery's End",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Executor Nano Tube",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Valby Code",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Divine Punishment Nano Tube Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Smithereens Polymer Syncytium Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "6"
+    },
+    {
+        "pattern_id": "037",
+        "source_map": "White-night Gulch",
+        "source_activity": "Bio-Lab",
+        "pattern_contents": [
+            {
+                "content_name": "Executor Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Albion Cavalry Gun Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Restored Relic Synthetic Fiber Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Enzo Spiral Catalyst Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "6"
+    },
+    {
+        "pattern_id": "038",
+        "source_map": "White-night Gulch",
+        "source_activity": "Block Kuiper Mining",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Viessa Code",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Perforator Nano Tube",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Divine Punishment Polymer Syncytium Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Smithereens Synthetic Fiber Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "6"
+    },
+    {
+        "pattern_id": "039",
+        "source_map": "White-night Gulch",
+        "source_activity": "Block Kuiper Mining",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Clairvoyance Synthetic Fiber Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Python Nano Tube",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Enzo Stabilizer Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Wave of Light Nano Tube",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "6"
+    },
+    {
+        "pattern_id": "040",
+        "source_map": "Hagios",
+        "source_activity": "Dune Base: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "King's Guard Lance Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Piercing Light Nano Tube",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Restored Relic Polymer Syncytium Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Enzo Stabilizer Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "041",
+        "source_map": "Hagios",
+        "source_activity": "The Corrupted Zone: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Kyle Enhanced Cells Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Clairvoyance Nano Tube Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Nazeistra's Devotion Polymer Syncytium",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Restored Relic Synthetic Fiber Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "042",
+        "source_map": "Hagios",
+        "source_activity": "Forward Base: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Blue Beetle Polymer Syncytium Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Albion Cavalry Gun Synthetic Fiber",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Valby Stabilizer Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "The Final Masterpiece Synthetic Fiber",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "043",
+        "source_map": "Hagios",
+        "source_activity": "The Haven",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Viessa Stabilizer Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Lepic Spiral Catalyst Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Albion Cavalry Gun Nano Tube",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Restored Relic Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "044",
+        "source_map": "Hagios",
+        "source_activity": "Old Mystery",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Jayber Stabilizer Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Python Polymer Syncytium",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "The Final Masterpiece Polymer Syncytium",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Greg's Reversed Fate Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "045",
+        "source_map": "Hagios",
+        "source_activity": "Neutralize Void Experiment",
+        "pattern_contents": [
+            {
+                "content_name": "Yujin Enhanced Cells Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Jayber Spiral Catalyst Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "King's Guard Lance Nano Tube Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Greg's Reversed Fate Polymer Syncytium Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "046",
+        "source_map": "Hagios",
+        "source_activity": "Neutralize Void Experiment",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Executor Synthetic Fiber",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Divine Punishment Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Restored Relic Nano Tube Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Viessa Spiral Catalyst Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "047",
+        "source_map": "Fortress",
+        "source_activity": "Frozen Valley: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Jayber Code",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Smithereens Polymer Syncytium Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Gley Stabilizer Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Piercing Light Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "8"
+    },
+    {
+        "pattern_id": "048",
+        "source_map": "Fortress",
+        "source_activity": "Converter Facility: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "King's Guard Lance Polymer Syncytium Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Divine Punishment Synthetic Fiber Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Wave of Light Polymer Syncytium",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Valby Enhanced Cells Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "8"
+    },
+    {
+        "pattern_id": "049",
+        "source_map": "Fortress",
+        "source_activity": "Defense Line: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Perforator Polymer Syncytium",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Ajax Stabilizer Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Greg's Reversed Fate Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Restored Relic Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "8"
+    },
+    {
+        "pattern_id": "050",
+        "source_map": "Fortress",
+        "source_activity": "Quarantine Zone",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Gley Spiral Catalyst Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Enzo Enhanced Cells Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Nazeistra's Devotion Nano Tube",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "The Final Masterpiece Nano Tube",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "8"
+    },
+    {
+        "pattern_id": "051",
+        "source_map": "Fortress",
+        "source_activity": "Heart of the Fortress",
+        "pattern_contents": [
+            {
+                "content_name": "Clairvoyance Polymer Syncytium Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Enzo Stabilizer Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Albion Cavalry Gun Polymer Syncytium",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Greg's Reversed Fate Nano Tube Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "8"
+    },
+    {
+        "pattern_id": "052",
+        "source_map": "Fortress",
+        "source_activity": "Defend Albion Resource",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Bunny Code",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Smithereens Nano Tube Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Wave of Light Nano Tube",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "The Final Masterpiece Synthetic Fiber",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "8"
+    },
+    {
+        "pattern_id": "053",
+        "source_map": "Fortress",
+        "source_activity": "Defend Albion Resource",
+        "pattern_contents": [
+            {
+                "content_name": "Amorphous Material Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Enduring Legacy Nano Tube",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Piercing Light Synthetic Fiber",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Enzo Code",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Gley Enhanced Cells Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "8"
+    },
+    {
+        "pattern_id": "054",
+        "source_map": "Kingston [Hard]",
+        "source_activity": "Fallen Theater: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Esiemo Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Kyle Enhanced Cells Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Python Polymer Syncytium",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Secret Garden Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "1"
+    },
+    {
+        "pattern_id": "055",
+        "source_map": "Kingston [Hard]",
+        "source_activity": "Fallen Theater: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Kyle Spiral Catalyst Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Jayber Enhanced Cells Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Executor Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Afterglow Sword Synthetic Fiber",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "1"
+    },
+    {
+        "pattern_id": "056",
+        "source_map": "Kingston [Hard]",
+        "source_activity": "Magister Lab",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Viessa Enhanced Cells Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Afterglow Sword Nano Tube",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Lepic Stabilizer Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Smithereens Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "1"
+    },
+    {
+        "pattern_id": "057",
+        "source_map": "Kingston [Hard]",
+        "source_activity": "Magister Lab",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ultimate Ajax Enhanced Cells Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Yujin Spiral Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "King's Guard Lance Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Clairvoyance Polymer Syncytium Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "1"
+    },
+    {
+        "pattern_id": "058",
+        "source_map": "Kingston [Hard]",
+        "source_activity": "Slumber Valley",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Gley Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Clairvoyance Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Kyle Stabilizer Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Piercing Light Nano Tube",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "1"
+    },
+    {
+        "pattern_id": "059",
+        "source_map": "Kingston [Hard]",
+        "source_activity": "Slumber Valley",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Enduring Legacy Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Ultimate Lepic Stabilizer Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Python Nano Tube",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Esiemo Enhanced Cells Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "1"
+    },
+    {
+        "pattern_id": "060",
+        "source_map": "Sterile Land [Hard]",
+        "source_activity": "Rockfall: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Gley Enhanced Cells Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Perforator Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Ajax Enhanced Cells Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Clairvoyance Nano Tube Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "2"
+    },
+    {
+        "pattern_id": "061",
+        "source_map": "Sterile Land [Hard]",
+        "source_activity": "Rockfall: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ultimate Lepic Code",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Esiemo Spiral Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Secret Garden Synthetic Fiber",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Nazeistra's Devotion Polymer Syncytium",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "2"
+    },
+    {
+        "pattern_id": "062",
+        "source_map": "Sterile Land [Hard]",
+        "source_activity": "The Repository: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Ajax Stabilizer Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Restored Relic Nano Tube Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Afterglow Sword Polymer Syncytium",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Jayber Stabilizer Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "2"
+    },
+    {
+        "pattern_id": "063",
+        "source_map": "Sterile Land [Hard]",
+        "source_activity": "The Repository: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Valby Code",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Kyle Enhanced Cells Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Wave of Light Synthetic Fiber",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Python Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "2"
+    },
+    {
+        "pattern_id": "064",
+        "source_map": "Sterile Land [Hard]",
+        "source_activity": "Classified Area: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Yujin Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Greg's Reversed Fate Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "King's Guard Lance Nano Tube Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Lepic Enhanced Cells Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "2"
+    },
+    {
+        "pattern_id": "065",
+        "source_map": "Sterile Land [Hard]",
+        "source_activity": "Classified Area: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Yujin Stabilizer Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Jayber Code",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Perforator Polymer Syncytium",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Enduring Legacy Nano Tube",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "2"
+    },
+    {
+        "pattern_id": "066",
+        "source_map": "Sterile Land [Hard]",
+        "source_activity": "The Forgottense",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Ajax Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Afterglow Sword Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Gley Enhanced Cells Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Albion Cavalry Gun Synthetic Fiber",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "2"
+    },
+    {
+        "pattern_id": "067",
+        "source_map": "Sterile Land [Hard]",
+        "source_activity": "The Forgottense",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Esiemo Stabilizer Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Ajax Spiral Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Enduring Legacy Synthetic Fiber",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Executor Polymer Syncytium",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "2"
+    },
+    {
+        "pattern_id": "068",
+        "source_map": "Sterile Land [Hard]",
+        "source_activity": "Unknown Laboratory",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Gley Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "The Final Masterpiece Synthetic Fiber",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Wave of Light Polymer Syncytium",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Viessa Enhanced Cells Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "2"
+    },
+    {
+        "pattern_id": "069",
+        "source_map": "Sterile Land [Hard]",
+        "source_activity": "Unknown Laboratory",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ultimate Lepic Spiral Catalyst Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Gley Code",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Perforator Synthetic Fiber",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Blue Beetle Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "2"
+    },
+    {
+        "pattern_id": "070",
+        "source_map": "Vespers [Hard]",
+        "source_activity": "Lumber Yard: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Viessa Spiral Catalyst Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ajax Spiral Catalyst Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Blue Beetle Polymer Syncytium Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Executor Synthetic Fiber",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "071",
+        "source_map": "Vespers [Hard]",
+        "source_activity": "Lumber Yard: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Yujin Spiral Catalyst Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Jayber Spiral Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Afterglow Sword Synthetic Fiber",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Python Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "072",
+        "source_map": "Vespers [Hard]",
+        "source_activity": "Lost Supply Depot: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Gley Spiral Catalyst Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Lepic Code",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Wave of Light Nano Tube",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Greg's Reversed Fate Synthetic Fiber Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "073",
+        "source_map": "Vespers [Hard]",
+        "source_activity": "Lost Supply Depot: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ultimate Bunny Enhanced Cells Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Kyle Code",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Divine Punishment Nano Tube Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Perforator Nano Tube",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "074",
+        "source_map": "Vespers [Hard]",
+        "source_activity": "Moonlight Lake: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Esiemo Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Secret Garden Nano Tube",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Ultimate Lepic Enhanced Cells Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Piercing Light Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "075",
+        "source_map": "Vespers [Hard]",
+        "source_activity": "Moonlight Lake: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ultimate Viessa Code",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Ajax Code",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Nazeistra's Devotion Nano Tube",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "King's Guard Lance Synthetic Fiber Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "076",
+        "source_map": "Vespers [Hard]",
+        "source_activity": "Sepulcher",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Gley Stabilizer Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Enduring Legacy Polymer Syncytium",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Wave of Light Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Kyle Stabilizer Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "077",
+        "source_map": "Vespers [Hard]",
+        "source_activity": "Sepulcher",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Esiemo Stabilizer Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Ultimate Lepic Enhanced Cells Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Executor Polymer Syncytium",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Blue Beetle Synthetic Fiber Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "078",
+        "source_map": "Vespers [Hard]",
+        "source_activity": "The Shelter",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Ajax Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Smithereens Polymer Syncytium Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Gley Spiral Catalyst Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Enduring Legacy Synthetic Fiber",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "079",
+        "source_map": "Vespers [Hard]",
+        "source_activity": "The Shelter",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Yujin Stabilizer Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Afterglow Sword Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Lepic Spiral Catalyst Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Albion Cavalry Gun Polymer Syncytium",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "080",
+        "source_map": "Echo Swamp [Hard]",
+        "source_activity": "Muskeg Swamp: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Yujin Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Perforator Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Lepic Enhanced Cells Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Executor Nano Tube",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "4"
+    },
+    {
+        "pattern_id": "081",
+        "source_map": "Echo Swamp [Hard]",
+        "source_activity": "Muskeg Swamp: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Esiemo Stabilizer Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Afterglow Sword Nano Tube",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Enzo Stabilizer Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "King's Guard Lance Polymer Syncytium Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "4"
+    },
+    {
+        "pattern_id": "082",
+        "source_map": "Echo Swamp [Hard]",
+        "source_activity": "Derelict Covert: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Bunny Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Kyle Enhanced Cells Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Secret Garden Polymer Syncytium",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Executor Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "4"
+    },
+    {
+        "pattern_id": "083",
+        "source_map": "Echo Swamp [Hard]",
+        "source_activity": "Derelict Covert: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Viessa Code",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Enduring Legacy Polymer Syncytium",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Gley Stabilizer Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Albion Cavalry Gun Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "4"
+    },
+    {
+        "pattern_id": "084",
+        "source_map": "Echo Swamp [Hard]",
+        "source_activity": "Seed Vault",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Gley Enhanced Cells Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Clairvoyance Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Viessa Spiral Catalyst Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Divine Punishment Polymer Syncytium Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "4"
+    },
+    {
+        "pattern_id": "085",
+        "source_map": "Echo Swamp [Hard]",
+        "source_activity": "Seed Vault",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ultimate Lepic Spiral Catalyst Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Yujin Enhanced Cells Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Secret Garden Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Smithereens Synthetic Fiber Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "4"
+    },
+    {
+        "pattern_id": "086",
+        "source_map": "Echo Swamp [Hard]",
+        "source_activity": "The Chapel",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Viessa Enhanced Cells Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Valby Stabilizer Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Blue Beetle Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Restored Relic Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "4"
+    },
+    {
+        "pattern_id": "087",
+        "source_map": "Echo Swamp [Hard]",
+        "source_activity": "The Chapel",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Kyle Spiral Catalyst Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Ultimate Bunny Spiral Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Wave of Light Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Enduring Legacy Nano Tube",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "4"
+    },
+    {
+        "pattern_id": "088",
+        "source_map": "Agna Desert [Hard]",
+        "source_activity": "Vermilion Waste: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Ajax Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Secret Garden Nano Tube",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Ajax Stabilizer Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Python Polymer Syncytium",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "089",
+        "source_map": "Agna Desert [Hard]",
+        "source_activity": "Vermilion Waste: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ultimate Lepic Code",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Jayber Spiral Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Afterglow Sword Synthetic Fiber",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Divine Punishment Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "090",
+        "source_map": "Agna Desert [Hard]",
+        "source_activity": "Storage: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Esiamo Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Yujin Enhanced Cells Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Executor Nano Tube",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "King's Guard Lance Polymer Syncytium",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "091",
+        "source_map": "Agna Desert [Hard]",
+        "source_activity": "Storage: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ultimate Viessa Stabilizer Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Jayber Enhanced Cells Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Perforator Nano Tube",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Piercing Light Synthetic Fiber",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "092",
+        "source_map": "Agna Desert [Hard]",
+        "source_activity": "Miragestone: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Gley Stabilizer Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Jayber Code",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Blue Beetle Polymer Syncytium Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Clairvoyance Nano Tube Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "093",
+        "source_map": "Agna Desert [Hard]",
+        "source_activity": "Miragestone: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Enzo Code",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Gley Code",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Smithereens Nano Tube Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Wave of Light Synthetic Fiber",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "094",
+        "source_map": "Agna Desert [Hard]",
+        "source_activity": "The Asylum",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Ajax Spiral Catalyst Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Afterglow Sword Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Lepic Spiral Catalyst Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Blue Beetle Synthetic Fiber Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "095",
+        "source_map": "Agna Desert [Hard]",
+        "source_activity": "The Asylum",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Yujin Stabilizer Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Viessa Code",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Clairvoyance Polymer Syncytium Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Divine Punishment Nano Tube Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "096",
+        "source_map": "Agna Desert [Hard]",
+        "source_activity": "Caligo Ossuary",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Gley Spiral Catalyst Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ajax Code",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Python Synthetic Fiber",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "The Final Masterpiece Nano Tube",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "097",
+        "source_map": "Agna Desert [Hard]",
+        "source_activity": "Caligo Ossuary",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Enduring Legacy Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Enzo Enhanced Cells Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "King's Guard Lance Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Viessa Enhanced Cells Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "098",
+        "source_map": "White-night Gulch [Hard]",
+        "source_activity": "The Mountaintops: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Ajax Spiral Catalyst Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Lepic Code",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Wave of Light Nano Tube",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "King's Guard Lance Nano Tube Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "6"
+    },
+    {
+        "pattern_id": "099",
+        "source_map": "White-night Gulch [Hard]",
+        "source_activity": "The Mountaintops: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ultimate Bunny Stabilizer Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Clairvoyance Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Secret Garden Synthetic Fiber",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Gley Spiral Catalyst Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "6"
+    },
+    {
+        "pattern_id": "100",
+        "source_map": "White-night Gulch [Hard]",
+        "source_activity": "Shipment Base: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Yujin Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Jayber Code",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Afterglow Sword Polymer Syncytium",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Executor Synthetic Fiber",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "6"
+    },
+    {
+        "pattern_id": "101",
+        "source_map": "White-night Gulch [Hard]",
+        "source_activity": "Shipment Base: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Enduring Legacy Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Kyle Code",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Jayber Stabilizer Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Perforator Polymer Syncytium",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "6"
+    },
+    {
+        "pattern_id": "102",
+        "source_map": "White-night Gulch [Hard]",
+        "source_activity": "Hatchery: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Gley Spiral Catalyst Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Viessa Stabilizer Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Python Nano Tube",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Piercing Light Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "6"
+    },
+    {
+        "pattern_id": "103",
+        "source_map": "White-night Gulch [Hard]",
+        "source_activity": "Hatchery: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Esiemo Stabilizer Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Ajax Code",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Blue Beetle Nano Tube Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Divine Punishment Synthetic Fiber Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "6"
+    },
+    {
+        "pattern_id": "104",
+        "source_map": "Hagios [Hard]",
+        "source_activity": "The Haven",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Gley Stabilizer Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Enduring Legacy Polymer Syncytium",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Executor Polymer Syncytium",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Esiemo Enhanced Cells Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "6"
+    },
+    {
+        "pattern_id": "105",
+        "source_map": "Hagios [Hard]",
+        "source_activity": "The Haven",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Kyle Spiral Catalyst Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Ultimate Lepic Stabilizer Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Greg's Reversed Fate Polymer Syncytium Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Python Synthetic Fiber",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "6"
+    },
+    {
+        "pattern_id": "106",
+        "source_map": "Hagios [Hard]",
+        "source_activity": "Old Mystery",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Bunny Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Lepic Code",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Piercing Light Nano Tube",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Clairvoyance Synthetic Fiber Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "6"
+    },
+    {
+        "pattern_id": "107",
+        "source_map": "Hagios [Hard]",
+        "source_activity": "Old Mystery",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ultimate Viessa Stabilizer Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Afterglow Sword Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Ajax Stabilizer Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Albion Cavalry Gun Nano Tube",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "6"
+    },
+    {
+        "pattern_id": "108",
+        "source_map": "Hagios [Hard]",
+        "source_activity": "Dune Base: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Viessa Spiral Catalyst Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Secret Garden Nano Tube",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Lepic Enhanced Cells Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Nazeistra's Devotion Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "109",
+        "source_map": "Hagios [Hard]",
+        "source_activity": "Dune Base: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Kyle Code",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Esiemo Spiral Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Piercing Light Polymer Syncytium",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "King's Guard Lance Synthetic Fiber Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "110",
+        "source_map": "Hagios [Hard]",
+        "source_activity": "The Corrupted Zone: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Esiemo Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Enzo Spiral Catalyst Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Clairvoyance Nano Tube Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Restored Relic Synthetic Fiber Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "111",
+        "source_map": "Hagios [Hard]",
+        "source_activity": "The Corrupted Zone: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Yujin Stabilizer Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Afterglow Sword Nano Tube",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Jayber Stabilizer Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Enduring Legacy Nano Tube",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "112",
+        "source_map": "Hagios [Hard]",
+        "source_activity": "Forward Base: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Ajax Stabilizer Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Valby Spiral Catalyst Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "The Final Masterpiece Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Secret Garden Polymer Syncytium",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "113",
+        "source_map": "Hagios [Hard]",
+        "source_activity": "Forward Base: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ultimate Bunny Enhanced Cells Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Clairvoyance Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Perforator Nano Tube",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Ajax Stabilizer Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "114",
+        "source_map": "White-night Gulch [Hard]",
+        "source_activity": "Mytery's End",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Viessa Enhanced Cells Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Yujin Enhanced Cells Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Secret Garden Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Greg's Reversed Fate Nano Tube Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "115",
+        "source_map": "White-night Gulch [Hard]",
+        "source_activity": "Mytery's End",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Viessa Stabilizer Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Enduring Legacy Polymer Syncytium",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Gley Stabilizer Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Wave of Light Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "116",
+        "source_map": "White-night Gulch [Hard]",
+        "source_activity": "Bio-Lab",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Ajax Stabilizer Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Jayber Spiral Catalyst Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Divine Punishment Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Clairvoyance Polymer Syncytium Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "117",
+        "source_map": "White-night Gulch [Hard]",
+        "source_activity": "Bio-Lab",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ultimate Bunny Stabilizer Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Viessa Spiral Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "The Final Masterpiece Polymer Syncytium",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "King's Guard Lance Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "118",
+        "source_map": "Fortress [Hard]",
+        "source_activity": "Frozen Valley: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Viessa Spiral Catalyst Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Valby Enhanced Cells Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Piercing Light Polymer Syncytium",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Nazeistra's Devotion Synthetic Fiber",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "8"
+    },
+    {
+        "pattern_id": "119",
+        "source_map": "Fortress [Hard]",
+        "source_activity": "Frozen Valley: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Enduring Legacy Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Jayber Enhanced Cells Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Blue Beetle Nano Tube Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Ajax Enhanced Cells Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "8"
+    },
+    {
+        "pattern_id": "120",
+        "source_map": "Fortress [Hard]",
+        "source_activity": "Converter Facility: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Yujin Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Wave of Light Synthetic Fiber",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Gley Enhanced Cells Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Secret Garden Synthetic Fiber",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "8"
+    },
+    {
+        "pattern_id": "121",
+        "source_map": "Fortress [Hard]",
+        "source_activity": "Converter Facility: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ultimate Ajax Enhanced Cells Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Esiemo Enhanced Cells Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Clairvoyance Synthetic Fiber Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Executor Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "8"
+    },
+    {
+        "pattern_id": "122",
+        "source_map": "Fortress [Hard]",
+        "source_activity": "Defense Line: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Gley Enhanced Cells Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Perforator Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Afterglow Sword Polymer Syncytium",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Lepic Stabilizer Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "8"
+    },
+    {
+        "pattern_id": "123",
+        "source_map": "Fortress [Hard]",
+        "source_activity": "Defense Line: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Kyle Spiral Catalyst Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Ultimate Bunny Spiral Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Python Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Divine Punishment Synthetic Fiber Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "8"
+    },
+    {
+        "pattern_id": "124",
+        "source_map": "Fortress [Hard]",
+        "source_activity": "Quarantine Zone",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Ajax Spiral Catalyst Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Gley Code",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Restored Relic Polymer Syncytium Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Perforator Synthetic Fiber",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "8"
+    },
+    {
+        "pattern_id": "125",
+        "source_map": "Fortress [Hard]",
+        "source_activity": "Quarantine Zone",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ultimate Viessa Code",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Yujin Spiral Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Piercing Light Synthetic Fiber",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Wave of Light Polymer Syncytium",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "8"
+    },
+    {
+        "pattern_id": "126",
+        "source_map": "Fortress [Hard]",
+        "source_activity": "Heart of the Fortress",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Gley Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ajax Spiral Catalyst Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Divine Punishment Polymer Syncytium Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Enduring Legacy Synthetic Fiber",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "8"
+    },
+    {
+        "pattern_id": "127",
+        "source_map": "Fortress [Hard]",
+        "source_activity": "Heart of the Fortress",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Esiemo Spiral Catalyst Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Afterglow Sword Nano Tube",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Kyle Stabilizer Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Blue Beetle Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "8"
+    }
+]

@@ -1,0 +1,111 @@
+body {
+    overflow-y: scroll;
+}
+
+.patterns-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    color: #ffffff;
+}
+
+.search-container {
+    position: absolute; /* Keep it fixed */
+    top: 100px; /* Distance from the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    border: 1px solid #3aa0ac; /* Border for the container */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Padding inside the container */
+    background-color: rgba(40, 40, 40, 0.9); /* Background color */
+    z-index: 1000; /* Above other content */
+    text-align: center; /* Center text */
+    width: 96%; /* Full width */
+}
+
+.patternsearch-input {
+    font-size: 16px;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #3aa0ac;
+    border-radius: 5px;
+    background-color: #252525;
+    color: #5F8589;
+    transition: background-color 0.2s;
+}
+
+.patternsearch-input::placeholder {
+    color: #5F8589;
+}
+
+.patternsearch-input:focus {
+    outline: none;
+    background-color: #333;
+}
+
+.pattern-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin-top: 220px; /* Space for the fixed input */
+}
+
+.pattern-card {
+    background-color: rgba(40, 40, 40, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #3aa0ac;
+    transition: transform 0.2s;
+}
+
+.pattern-card:hover {
+    transform: scale(1.05);
+}
+
+.pattern-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.pattern-card p {
+    margin: 5px 0;
+}
+
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+  
+.content-table th, .content-table td {
+    border: 1px solid #3aa0ac;
+    padding: 8px;
+    text-align: left;
+}
+  
+.content-table th {
+    background-color: #333;
+}
+.chance-column {
+    width: 50px; /* Set your desired width */
+}
+
+.highlight {
+    color: #3aa0ac; /* Neon-blue color */
+    font-weight: bold; /* Optional: make it bold */
+}
+.bar-container {
+    width: 100%;
+    background-color: #444; /* Background for the bar container */
+}
+  
+.bar {
+    height: 20px; /* Height of the bar */
+    background-color: #3aa1ac7a; /* Color of the bar */
+    text-align: center; /* Center text inside the bar */
+    color: #fff; /* Text color */
+    line-height: 20px; /* Center the percentage text vertically */
+}

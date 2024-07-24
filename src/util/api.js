@@ -72,6 +72,16 @@ const fetchStatName = async (statId) => {
   });
   return response.data.stat_name;
 };
+const fetchAllPatterns = async () => {
+  const response = await axios.get(`/api/meta/patterns`);
+  return response.data;
+};
+const fetchPattern = async (patternId) => {
+  const response = await axios.get(`/api/meta/pattern`, {
+    params: { pattern_id: patternId },
+  });
+  return response.data;
+};
 
 export {
   fetchUserOUID,
@@ -86,4 +96,6 @@ export {
   fetchAllDescendants,
   fetchStatName,
   fetchAllStats,
+  fetchAllPatterns,
+  fetchPattern,
 };
