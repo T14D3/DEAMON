@@ -1,0 +1,68 @@
+body {
+  background-color: #404040;
+  overflow: hidden; /* Prevent scrolling */
+}
+
+.maps-container {
+  position: relative;
+  height: 100vh; /* Full height of the viewport */
+  overflow: hidden; /* Prevent overflow */
+}
+
+.map-selector {
+  position: fixed;
+  top: 7%;
+  left: 7%;
+  transform: translateX(-50%);
+  z-index: 10;
+  background-color: #333;
+  border: var(--primary-color) solid 1px;
+  padding: 10px;
+  text-align: center;
+}
+.map-selector-select {
+  background-color: #444;
+  color: var(--primary-color);
+  border: none;
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.map {
+  position: absolute; /* Allow positioning */
+  cursor: grab; /* Change cursor to indicate draggable */
+  background: transparent; /* Set to transparent initially */
+  box-shadow: #252525 0 0 20px 10px;
+  transform-origin: center; /* Set origin for zoom */
+}
+
+.map-image {
+  width: auto; /* Allow full size */
+  height: auto; /* Maintain aspect ratio */
+  max-width: none; /* Prevent constraints */
+}
+
+.map-box {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid black; /* Black outline */
+  transform: rotate(45deg); /* Rotate 45 degrees */
+  transition: transform 0.3s; /* Smooth transition for size change */
+  cursor: pointer;
+}
+
+.map-box:hover {
+  transform: rotate(45deg) scale(1.2); /* Grow on hover */
+}
+
+.tooltip {
+  position: absolute;
+  background-color: #333;
+  border: 1px solid var(--primary-color);
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  z-index: 20; /* Ensure it's above other elements */
+}

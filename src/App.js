@@ -9,6 +9,7 @@ const Zones = lazy(() => import('./pages/Zones'));
 const User = lazy(() => import('./pages/User'));
 const Sandbox = lazy(() => import('./pages/Sandbox'));
 const Patterns = lazy(() => import('./pages/Patterns'));
+const Maps = lazy(() => import('./pages/Maps'));
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
             {/* Redirect /b/:id to /sandbox/:id */}
             <Route path="/b/:id" element={<RedirectToSandbox />} />
             <Route path="/patterns" element={<Patterns />} />
+            <Route path="/maps" element={<Maps />} />
+            <Route path="/maps/:id" element={<Maps />} />
           </Routes>
         </Layout>
       </Suspense>

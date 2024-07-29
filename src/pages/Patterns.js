@@ -97,8 +97,7 @@ function Patterns() {
         {filteredPatterns.map(pattern => (
           <div key={pattern.pattern_id} className="pattern-card">
             <h2>Amorphous Material Pattern: {pattern.pattern_id}</h2>
-            <p><strong>Map Name:</strong> {pattern.highlightedMap || pattern.source_map}</p>
-            <p><strong>Activity Name:</strong> {pattern.highlightedActivity || pattern.source_activity}</p>
+            <p><strong>Map Name:</strong> <a href='' style={{color: "var(--primary-color)"}}>{pattern.highlightedActivity || pattern.source_activity} ({pattern.highlightedMap || pattern.source_map})</a></p>
             <table className="content-table">
               <thead>
                 <tr>

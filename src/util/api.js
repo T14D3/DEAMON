@@ -82,6 +82,16 @@ const fetchPattern = async (patternId) => {
   });
   return response.data;
 };
+const fetchMission = async (missionId) => {
+  const response = await axios.get(`/api/meta/mission`, {
+    params: { mission_id: missionId },
+  });
+  return response.data;
+};
+const fetchAllMissions = async () => {
+  const response = await axios.get(`/api/meta/missions`);
+  return response.data;
+};
 
 export {
   fetchUserOUID,
@@ -98,4 +108,6 @@ export {
   fetchAllStats,
   fetchAllPatterns,
   fetchPattern,
+  fetchMission,
+  fetchAllMissions,
 };
