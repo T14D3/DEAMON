@@ -72,6 +72,26 @@ const fetchStatName = async (statId) => {
   });
   return response.data.stat_name;
 };
+const fetchAllPatterns = async () => {
+  const response = await axios.get(`/api/meta/patterns`);
+  return response.data;
+};
+const fetchPattern = async (patternId) => {
+  const response = await axios.get(`/api/meta/pattern`, {
+    params: { pattern_id: patternId },
+  });
+  return response.data;
+};
+const fetchMission = async (missionId) => {
+  const response = await axios.get(`/api/meta/mission`, {
+    params: { mission_id: missionId },
+  });
+  return response.data;
+};
+const fetchAllMissions = async () => {
+  const response = await axios.get(`/api/meta/missions`);
+  return response.data;
+};
 
 export {
   fetchUserOUID,
@@ -86,4 +106,8 @@ export {
   fetchAllDescendants,
   fetchStatName,
   fetchAllStats,
+  fetchAllPatterns,
+  fetchPattern,
+  fetchMission,
+  fetchAllMissions,
 };

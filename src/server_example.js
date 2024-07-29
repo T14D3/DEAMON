@@ -4,6 +4,8 @@ const NodeCache = require('node-cache');
 const { saveData, loadData } = require('./util/db'); // Import db module
 const app = express();
 const port = 5000;
+const fs = require('fs');
+const path = require('path');
 
 const API_KEY = 'INSERT_YOUR_API_KEY_HERE';
 const cache = new NodeCache({ stdTTL: 120 }); // Cache for 2 minutes
@@ -228,6 +230,56 @@ app.get('/api/meta/descendants', async (req, res) => {
     res.json(data);
   } catch (error) {
     console.error('Error fetching all descendant metadata:', error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Endpoint to fetch all stat metadata
+app.get('/api/meta/stats', async (req, res) => {
+  try {
+    const data = await getCacheOrFetch('fetchAllStats', async () => {
+      const response = await axios.get('https://open.api.nexon.com/static/tfd/meta/en/stat.json');
+      return response.data;
+    });
+    res.json(data);
+  } catch (error) {
+    console.error('Error fetching all stat metadata:', error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Endpoint to fetch stat metadata by ID
+app.get('/api/meta/stat', async (req, res) => {
+  const { stat_id } = req.query;
+  const cacheKey = `fetchStatInfo_${stat_id}`;
+
+  try {
+    const data = await getCacheOrFetch(cacheKey, async () => {
+      const response = await axios.get('https://open.api.nexon.com/static/tfd/meta/en/stat.json');
+      const statInfo = response.data.find(stat => stat.stat_id === stat_id);
+      if (!statInfo) {
+        throw new Error(`Stat with ID ${stat_id} not found`);
+      }
+      return statInfo;
+    });
+    res.json(data);
+  } catch (error) {
+    console.error('Error fetching stat metadata:', error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Endpoint to fetch all patterns, locally
+app.get('/api/meta/patterns', async (req, res) => {
+  try {
+    const data = await getCacheOrFetch('fetchAllPatterns', async () => {
+      const filePath = path.join(__dirname, 'api', 'patterns.json');
+      const fileContents = await fs.promises.readFile(filePath, 'utf-8');
+      return JSON.parse(fileContents);
+    });
+    res.json(data);
+  } catch (error) {
+    console.error('Error fetching all patterns:', error);
     res.status(500).json({ error: error.message });
   }
 });

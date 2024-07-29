@@ -38,6 +38,8 @@ function Header() {
           <li className="nav-item"><Link to="/">Home</Link></li>
           <li className="nav-item"><Link to="/zones">Zones</Link></li>
           <li className="nav-item"><Link to="/sandbox">Sandbox</Link></li>
+          <li className="nav-item"><Link to="/patterns">Patterns</Link></li>
+          <li className="nav-item"><Link to="/maps">Maps</Link></li>
           <li className="nav-item">
             {linkComponent}
           </li>

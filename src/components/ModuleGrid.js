@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import GridSlot from './GridSlot';
 import DraggableBox from './DraggableBox';
-import Modal from './Modal';
+import Modal from './Module-Modal';
 import { fetchModuleInfo, findDescendantData, fetchWeaponInfo, fetchAllStats } from '../util/api';
 import './ModuleGrid.css';
 import Search from './Search';

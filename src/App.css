@@ -1,4 +1,7 @@
-/* App styling */
+:root {
+  --primary-color: #3aa0ac;
+}
+
 body {
   color: #fff;
   font-family: Arial, sans-serif;

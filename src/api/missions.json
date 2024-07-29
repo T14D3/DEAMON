@@ -1,0 +1,465 @@
+[
+    {
+        "map_id": "610002001",
+        "missions": [
+            {
+                "id": "box1",
+                "left": "1303px",
+                "top": "378px",
+                "name": "Moonlight Lake: Vulgus Strategic Outpost",
+                "type": "Zone Recon Mission",
+                "rewards": [
+                    {
+                        "name": "2800 Gold",
+                        "chance": "100%"
+                    },
+                    {
+                        "name": "730 XP",
+                        "chance": "100%"
+                    },
+                    {
+                        "name": "Shape Stabilizer Form 3",
+                        "chance": "0.4%"
+                    },
+                    {
+                        "name": "Remote Generator",
+                        "chance": "2%"
+                    },
+                    {
+                        "name": "High-Power Rounds Compulsive",
+                        "chance": "15%"
+                    },
+                    {
+                        "name": "Maximize Electric Resist",
+                        "chance": "15%"
+                    },
+                    {
+                        "name": "Amorphous Material Pattern: 015",
+                        "chance": "20%"
+                    },
+                    {
+                        "name": "Materialized Singularity Reactor",
+                        "chance": "50%"
+                    },
+                    {
+                        "name": "Explorer's Path",
+                        "chance": "50%"
+                    },
+                    {
+                        "name": "Unfinished Study",
+                        "chance": "50%"
+                    },
+                    {
+                        "name": "Toxic Phase Reactor",
+                        "chance": "50%"
+                    },
+                    {
+                        "name": "Amorphous Material Pattern: 015",
+                        "chance": "5%-20% (Infiltration)"
+                    },
+                    {
+                        "name": "Shape Stabilizer Form 3",
+                        "chance": "0.2%-1.6% (Infiltration)"
+                    }
+                ]
+            },
+            {
+                "id": "box2",
+                "left": "1670px",
+                "top": "514.3px",
+                "name": "Lakeside",
+                "type": "Battlefield Mission",
+                "rewards": [
+                    {
+                        "name": "5600 Gold",
+                        "chance": "100%"
+                    },
+                    {
+                        "name": "1460 XP",
+                        "chance": "100%"
+                    },
+                    {
+                        "name": "Midair Fire",
+                        "chance": "2%"
+                    },
+                    {
+                        "name": "Fire Rate Concentration",
+                        "chance": "15%"
+                    },
+                    {
+                        "name": "Tingling Singularity Reactor",
+                        "chance": "50%"
+                    },
+                    {
+                        "name": "Toxic Enhancement",
+                        "chance": "50%"
+                    },
+                    {
+                        "name": "Burning Singularity Reactor",
+                        "chance": "50%"
+                    },
+                    {
+                        "name": "Forest Gaze",
+                        "chance": "50%"
+                    },
+                    {
+                        "name": "Millennium Frost",
+                        "chance": "50%"
+                    }
+                ]
+            },
+            {
+                "id": "box3",
+                "left": "1449px",
+                "top": "636.5px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box4",
+                "left": "1707px",
+                "top": "943px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box5",
+                "left": "1669px",
+                "top": "757px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box6",
+                "left": "1818px",
+                "top": "650px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box7",
+                "left": "2253px",
+                "top": "514px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box8",
+                "left": "2496.35px",
+                "top": "959px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box9",
+                "left": "2285px",
+                "top": "1121px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box10",
+                "left": "2583.5px",
+                "top": "1053px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box11",
+                "left": "2548px",
+                "top": "1205px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box12",
+                "left": "2430.5px",
+                "top": "1514px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box13",
+                "left": "2668.5px",
+                "top": "1554px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box14",
+                "left": "1964px",
+                "top": "1539px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box15",
+                "left": "1855.35px",
+                "top": "1741.35px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box16",
+                "left": "1910px",
+                "top": "1931px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box17",
+                "left": "1641.5px",
+                "top": "1854px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box18",
+                "left": "1562px",
+                "top": "1742.3px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box19",
+                "left": "1903px",
+                "top": "2730px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box20",
+                "left": "2227px",
+                "top": "2834px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box21",
+                "left": "2537.3px",
+                "top": "2764px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box22",
+                "left": "2064.3px",
+                "top": "2940.5px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box23",
+                "left": "860px",
+                "top": "1622px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box24",
+                "left": "959px",
+                "top": "1384.4px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box25",
+                "left": "909.5px",
+                "top": "1212.5px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box26",
+                "left": "1084px",
+                "top": "1153px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box27",
+                "left": "1161.5px",
+                "top": "1137.5px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box28",
+                "left": "603.5px",
+                "top": "1105px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            },
+            {
+                "id": "box29",
+                "left": "925px",
+                "top": "884px",
+                "name": "MISSION_NAME",
+                "type": "MISSION_TYPE",
+                "rewards": [
+                    {
+                        "name": "REWARD_NAME",
+                        "chance": "X%"
+                    }
+                ]
+            }
+        ]
+
+    }
+]
