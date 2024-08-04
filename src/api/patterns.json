@@ -281,11 +281,39 @@
     },
     {
         "pattern_id": "011",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Perforator Polymer Syncytium",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Divine Punishment Polymer Syncytium Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Enzo Spiral Catalyst Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "The Final Masterpiece Nano Tube",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "2"
+    },
+    {
+        "pattern_id": "011 - Mutant AA",
         "source_map": "Sterile Land",
         "source_activity": "Block Kuiper Mining",
         "pattern_contents": [
             {
-                "content_name": "Perforator Polymer Syncytium",
+                "content_name": "Ultimate Valby Enhanced Cells",
                 "content_chance": "3%"
             },
             {
@@ -393,6 +421,34 @@
     },
     {
         "pattern_id": "015",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Esiemo Spiral Catalyst Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Restored Relic Polymer Syncytium Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Albion Cavalry Gun Nano Tube",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Nazeistra's Devotion Nano Tube",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "015 - Mutant AA",
         "source_map": "Vespers",
         "source_activity": "Moonlight Lake: Vulgus Strategic Outpost",
         "pattern_contents": [
@@ -409,7 +465,7 @@
                 "content_chance": "15%"
             },
             {
-                "content_name": "Albion Cavalry Gun Nano Tube",
+                "content_name": "Luna Spiral Catalyst Blueprint",
                 "content_chance": "38%"
             },
             {
@@ -449,6 +505,34 @@
     },
     {
         "pattern_id": "017",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Bunny Spiral Catalyst Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Kyle Stabilizer Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Nazeistra's Devotion Synthetic Fiber",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Smithereens Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "017 - Mutant AA",
         "source_map": "Vespers",
         "source_activity": "The Shelter",
         "pattern_contents": [
@@ -465,7 +549,7 @@
                 "content_chance": "15%"
             },
             {
-                "content_name": "Nazeistra's Devotion Synthetic Fiber",
+                "content_name": "Luna Enhanced Cells Blueprint",
                 "content_chance": "38%"
             },
             {
@@ -533,6 +617,34 @@
     },
     {
         "pattern_id": "020",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Executor Synthetic Fiber",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Restored Relic Synthetic Fiber Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Valby Stabilizer Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Albion Cavalry Gun Synthetic Fiber",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "4"
+    },
+    {
+        "pattern_id": "020 - Mutant AA",
         "source_map": "Echo Swamp",
         "source_activity": "Muskeg Swamp: Vulgus Strategic Outpost",
         "pattern_contents": [
@@ -541,7 +653,7 @@
                 "content_chance": "3%"
             },
             {
-                "content_name": "Executor Synthetic Fiber",
+                "content_name": "Luna Stabilizer Blueprint",
                 "content_chance": "6%"
             },
             {
@@ -617,6 +729,34 @@
     },
     {
         "pattern_id": "023",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Blue Beetle Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Valby Spiral Catalyst Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Restored Relic Nano Tube Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Greg's Reversed Fate Synthetic Fiber Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "4"
+    },
+    {
+        "pattern_id": "023 - Mutant AA",
         "source_map": "Echo Swamp",
         "source_activity": "The Chapel",
         "pattern_contents": [
@@ -625,7 +765,7 @@
                 "content_chance": "3%"
             },
             {
-                "content_name": "Valby Spiral Catalyst Blueprint",
+                "content_name": "Ultimate Valby Spiral Catalyst",
                 "content_chance": "6%"
             },
             {
@@ -729,11 +869,39 @@
     },
     {
         "pattern_id": "027",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Perforator Synthetic Fiber",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Smithereens Polymer Syncytium Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Ajax Enhanced Cells Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Albion Cavalry Gun Polymer Syncytium",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "027 - Mutant AA",
         "source_map": "Agna Desert",
         "source_activity": "Storage: Vulgus Strategic Outpost",
         "pattern_contents": [
             {
-                "content_name": "Perforator Synthetic Fiber",
+                "content_name": "Luna Code",
                 "content_chance": "3%"
             },
             {
@@ -813,6 +981,34 @@
     },
     {
         "pattern_id": "030",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Clairvoyance Synthetic Fiber Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Viessa Code",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Albion Cavalry Gun Synthetic Fiber",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "The Final Masterpiece Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "030 - Mutant AA",
         "source_map": "Agna Desert",
         "source_activity": "Caligo Ossuary",
         "pattern_contents": [
@@ -821,7 +1017,7 @@
                 "content_chance": "3%"
             },
             {
-                "content_name": "Clairvoyance Synthetic Fiber Blueprint",
+                "content_name": "Ultimate Valby Stabilizer",
                 "content_chance": "6%"
             },
             {
@@ -1037,6 +1233,34 @@
     },
     {
         "pattern_id": "038",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Viessa Code",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Perforator Nano Tube",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Divine Punishment Polymer Syncytium Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Smithereens Synthetic Fiber Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "6"
+    },
+    {
+        "pattern_id": "038 - Mutant AA",
         "source_map": "White-night Gulch",
         "source_activity": "Block Kuiper Mining",
         "pattern_contents": [
@@ -1057,7 +1281,7 @@
                 "content_chance": "38%"
             },
             {
-                "content_name": "Smithereens Synthetic Fiber Blueprint",
+                "content_name": "Luna Enhanced Cells Blueprint",
                 "content_chance": "38%"
             }
         ],
@@ -1205,6 +1429,34 @@
     },
     {
         "pattern_id": "044",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Jayber Stabilizer Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Python Polymer Syncytium",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "The Final Masterpiece Polymer Syncytium",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Greg's Reversed Fate Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "044 - Mutant AA",
         "source_map": "Hagios",
         "source_activity": "Old Mystery",
         "pattern_contents": [
@@ -1213,7 +1465,7 @@
                 "content_chance": "3%"
             },
             {
-                "content_name": "Jayber Stabilizer Blueprint",
+                "content_name": "Ultimate Valby Enhanced Cells",
                 "content_chance": "6%"
             },
             {
@@ -1345,6 +1597,34 @@
     },
     {
         "pattern_id": "049",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Perforator Polymer Syncytium",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Ajax Stabilizer Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Greg's Reversed Fate Blueprint",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "Restored Relic Blueprint",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "8"
+    },
+    {
+        "pattern_id": "049 - Mutant AA",
         "source_map": "Fortress",
         "source_activity": "Defense Line: Vulgus Strategic Outpost",
         "pattern_contents": [
@@ -1365,7 +1645,7 @@
                 "content_chance": "38%"
             },
             {
-                "content_name": "Restored Relic Blueprint",
+                "content_name": "Luna Spiral Catalyst Blueprint",
                 "content_chance": "38%"
             }
         ],
@@ -1429,6 +1709,34 @@
     },
     {
         "pattern_id": "052",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Bunny Code",
+                "content_chance": "3%"
+            },
+            {
+                "content_name": "Smithereens Nano Tube Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "15%"
+            },
+            {
+                "content_name": "Wave of Light Nano Tube",
+                "content_chance": "38%"
+            },
+            {
+                "content_name": "The Final Masterpiece Synthetic Fiber",
+                "content_chance": "38%"
+            }
+        ],
+        "shape_stabilizer": "8"
+    },
+    {
+        "pattern_id": "052 - Mutant AA",
         "source_map": "Fortress",
         "source_activity": "Defend Albion Resource",
         "pattern_contents": [
@@ -1437,7 +1745,7 @@
                 "content_chance": "3%"
             },
             {
-                "content_name": "Smithereens Nano Tube Blueprint",
+                "content_name": "Ultimate Valby Spiral Catalyst",
                 "content_chance": "6%"
             },
             {
@@ -1513,6 +1821,34 @@
     },
     {
         "pattern_id": "055",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Kyle Spiral Catalyst Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Jayber Enhanced Cells Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Executor Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Afterglow Sword Synthetic Fiber",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "1"
+    },
+    {
+        "pattern_id": "055 - Mutant AA",
         "source_map": "Kingston [Hard]",
         "source_activity": "Fallen Theater: Vulgus Strategic Outpost",
         "pattern_contents": [
@@ -1533,7 +1869,7 @@
                 "content_chance": "32%"
             },
             {
-                "content_name": "Afterglow Sword Synthetic Fiber",
+                "content_name": "Ultimate Valby Stabilizer",
                 "content_chance": "32%"
             }
         ],
@@ -1877,6 +2213,34 @@
     },
     {
         "pattern_id": "068",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Gley Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "The Final Masterpiece Synthetic Fiber",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Wave of Light Polymer Syncytium",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Viessa Enhanced Cells Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "2"
+    },
+    {
+        "pattern_id": "068 - Mutant AA",
         "source_map": "Sterile Land [Hard]",
         "source_activity": "Unknown Laboratory",
         "pattern_contents": [
@@ -1897,7 +2261,7 @@
                 "content_chance": "32%"
             },
             {
-                "content_name": "Viessa Enhanced Cells Blueprint",
+                "content_name": "Luna Stabilizer Blueprint",
                 "content_chance": "32%"
             }
         ],
@@ -1961,6 +2325,34 @@
     },
     {
         "pattern_id": "071",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Yujin Spiral Catalyst Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Jayber Spiral Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Afterglow Sword Synthetic Fiber",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Python Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "071 - Mutant AA",
         "source_map": "Vespers [Hard]",
         "source_activity": "Lumber Yard: Vulgus Strategic Outpost",
         "pattern_contents": [
@@ -1973,7 +2365,7 @@
                 "content_chance": "10%"
             },
             {
-                "content_name": "Jayber Spiral Catalyst Blueprint",
+                "content_name": "Luna Spiral Catalyst Blueprint",
                 "content_chance": "20%"
             },
             {
@@ -2017,6 +2409,34 @@
     },
     {
         "pattern_id": "073",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ultimate Bunny Enhanced Cells Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Kyle Code",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Divine Punishment Nano Tube Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Perforator Nano Tube",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "3"
+    },
+    {
+        "pattern_id": "073 - Mutant AA",
         "source_map": "Vespers [Hard]",
         "source_activity": "Lost Supply Depot: Vulgus Strategic Outpost",
         "pattern_contents": [
@@ -2029,7 +2449,7 @@
                 "content_chance": "10%"
             },
             {
-                "content_name": "Kyle Code",
+                "content_name": "Ultimate Valby Spiral Catalyst",
                 "content_chance": "20%"
             },
             {
@@ -2241,6 +2661,34 @@
     },
     {
         "pattern_id": "081",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Esiemo Stabilizer Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Afterglow Sword Nano Tube",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Enzo Stabilizer Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "King's Guard Lance Polymer Syncytium Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "4"
+    },
+    {
+        "pattern_id": "081 - Mutant AA",
         "source_map": "Echo Swamp [Hard]",
         "source_activity": "Muskeg Swamp: Vulgus Strategic Outpost",
         "pattern_contents": [
@@ -2249,7 +2697,7 @@
                 "content_chance": "6%"
             },
             {
-                "content_name": "Esiemo Stabilizer Blueprint",
+                "content_name": "Luna Enhanced Cells Blueprint",
                 "content_chance": "10%"
             },
             {
@@ -2409,6 +2857,34 @@
     },
     {
         "pattern_id": "087",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Kyle Spiral Catalyst Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Ultimate Bunny Spiral Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Wave of Light Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Enduring Legacy Nano Tube",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "4"
+    },
+    {
+        "pattern_id": "087 - Mutant AA",
         "source_map": "Echo Swamp [Hard]",
         "source_activity": "The Chapel",
         "pattern_contents": [
@@ -2417,7 +2893,7 @@
                 "content_chance": "6%"
             },
             {
-                "content_name": "Kyle Spiral Catalyst Blueprint",
+                "content_name": "ltimate Valby Code",
                 "content_chance": "10%"
             },
             {
@@ -2493,8 +2969,8 @@
     },
     {
         "pattern_id": "090",
-        "source_map": "Agna Desert [Hard]",
-        "source_activity": "Storage: Vulgus Strategic Outpost",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
         "pattern_contents": [
             {
                 "content_name": "Esiamo Code",
@@ -2502,6 +2978,34 @@
             },
             {
                 "content_name": "Yujin Enhanced Cells Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Executor Nano Tube",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "King's Guard Lance Polymer Syncytium",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "090 - Mutant AA",
+        "source_map": "Agna Desert [Hard]",
+        "source_activity": "Storage: Vulgus Strategic Outpost",
+        "pattern_contents": [
+            {
+                "content_name": "Esiemo Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Luna Code",
                 "content_chance": "10%"
             },
             {
@@ -2605,6 +3109,34 @@
     },
     {
         "pattern_id": "094",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Ajax Spiral Catalyst Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Afterglow Sword Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Lepic Spiral Catalyst Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Blue Beetle Synthetic Fiber Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "5"
+    },
+    {
+        "pattern_id": "094 - Mutant AA",
         "source_map": "Agna Desert [Hard]",
         "source_activity": "The Asylum",
         "pattern_contents": [
@@ -2621,7 +3153,7 @@
                 "content_chance": "20%"
             },
             {
-                "content_name": "Lepic Spiral Catalyst Blueprint",
+                "content_name": "Luna Code",
                 "content_chance": "32%"
             },
             {
@@ -2717,6 +3249,34 @@
     },
     {
         "pattern_id": "098",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Ultimate Ajax Spiral Catalyst Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Lepic Code",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Wave of Light Nano Tube",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "King's Guard Lance Nano Tube Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "6"
+    },
+    {
+        "pattern_id": "098 - Mutant AA",
         "source_map": "White-night Gulch [Hard]",
         "source_activity": "The Mountaintops: Vulgus Strategic Outpost",
         "pattern_contents": [
@@ -2725,7 +3285,7 @@
                 "content_chance": "6%"
             },
             {
-                "content_name": "Lepic Code",
+                "content_name": "Luna Stabilizer Blueprint",
                 "content_chance": "10%"
             },
             {
@@ -3053,11 +3613,39 @@
     },
     {
         "pattern_id": "110",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Esiemo Code",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Enzo Spiral Catalyst Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Crystallization Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Clairvoyance Nano Tube Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Restored Relic Synthetic Fiber Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "110 - Mutant AA",
         "source_map": "Hagios [Hard]",
         "source_activity": "The Corrupted Zone: Vulgus Strategic Outpost",
         "pattern_contents": [
             {
-                "content_name": "Esiemo Code",
+                "content_name": "Ultimate Valby Code",
                 "content_chance": "6%"
             },
             {
@@ -3137,6 +3725,34 @@
     },
     {
         "pattern_id": "113",
+        "source_map": "Unobtainable",
+        "source_activity": "Unknown Laboratory",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ultimate Bunny Enhanced Cells Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Clairvoyance Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Perforator Nano Tube",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Ajax Stabilizer Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "113 - Mutant AA",
         "source_map": "Hagios [Hard]",
         "source_activity": "Forward Base: Vulgus Strategic Outpost",
         "pattern_contents": [
@@ -3157,7 +3773,7 @@
                 "content_chance": "32%"
             },
             {
-                "content_name": "Ajax Stabilizer Blueprint",
+                "content_name": "Ultimate Valby Stabilizer",
                 "content_chance": "32%"
             }
         ],
@@ -3193,6 +3809,34 @@
     },
     {
         "pattern_id": "115",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Viessa Stabilizer Blueprint",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Enduring Legacy Polymer Syncytium",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Gley Stabilizer Blueprint",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Wave of Light Blueprint",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "7"
+    },
+    {
+        "pattern_id": "115 - Mutant AA",
         "source_map": "White-night Gulch [Hard]",
         "source_activity": "Mytery's End",
         "pattern_contents": [
@@ -3209,7 +3853,7 @@
                 "content_chance": "20%"
             },
             {
-                "content_name": "Gley Stabilizer Blueprint",
+                "content_name": "Ultimate Valby Enhanced Cells",
                 "content_chance": "32%"
             },
             {
@@ -3473,6 +4117,34 @@
     },
     {
         "pattern_id": "125",
+        "source_map": "Unobtainable",
+        "source_activity": "Unobtainable",
+        "pattern_contents": [
+            {
+                "content_name": "Energy Activator Blueprint",
+                "content_chance": "6%"
+            },
+            {
+                "content_name": "Ultimate Viessa Code",
+                "content_chance": "10%"
+            },
+            {
+                "content_name": "Yujin Spiral Catalyst Blueprint",
+                "content_chance": "20%"
+            },
+            {
+                "content_name": "Piercing Light Synthetic Fiber",
+                "content_chance": "32%"
+            },
+            {
+                "content_name": "Wave of Light Polymer Syncytium",
+                "content_chance": "32%"
+            }
+        ],
+        "shape_stabilizer": "8"
+    },
+    {
+        "pattern_id": "125 - Mutant AA",
         "source_map": "Fortress [Hard]",
         "source_activity": "Quarantine Zone",
         "pattern_contents": [
@@ -3485,7 +4157,7 @@
                 "content_chance": "10%"
             },
             {
-                "content_name": "Yujin Spiral Catalyst Blueprint",
+                "content_name": "Ultimate Valby Code",
                 "content_chance": "20%"
             },
             {
