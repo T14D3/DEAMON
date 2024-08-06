@@ -21,13 +21,13 @@ function Header() {
   // Render link and button text based on hostname
   let linkComponent, buttonText;
   if (currentHostname === 'deamon.app') {
-    linkComponent = <Link to="https://dev.t14d3.de">DEV</Link>;
+    linkComponent = <Link to="https://dev.deamon.app">DEV</Link>;
     buttonText = 'DEV';
-  } else if (currentHostname === 'dev.t14d3.de') {
+  } else if (currentHostname === 'dev.deamon.app') {
     linkComponent = <a href="https://deamon.app">Stable</a>;
     buttonText = 'Stable';
   } else {
-    linkComponent = <Link to="https://dev.t14d3.de">DEV</Link>;
+    linkComponent = <Link to="https://dev.deamon.app">DEV</Link>;
     buttonText = 'DEV';
   }
 
