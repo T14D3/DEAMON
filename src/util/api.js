@@ -1,5 +1,7 @@
 import axios from 'axios';
 
+axios.defaults.baseURL = 'http://localhost:5000';
+
 const fetchUserOUID = async (customHeader) => {
   const response = await axios.get(`/api/user/ouid`, {
     params: { user_name: customHeader },
@@ -93,6 +95,28 @@ const fetchAllMissions = async () => {
   return response.data;
 };
 
+const fetchConsumableMaterialMap = async () => {
+  const response = await axios.get(`/api/meta/materials`);
+  const list = response.data;
+  const map = {};
+  for (const item of list) {
+    map[item.consumable_material_id] = {
+      name: item.consumable_material_name,
+      imageUrl: item.image_url,
+      pattern_id: item.amorphous_reward[0],
+      consumable_id: item.consumable_material_id,
+      source: item.acquisition_detail
+    };
+  }
+  return map;
+};
+
+const fetchAcquisitionInfos = async () => {
+  const response = await axios.get(`/api/meta/acquisition`);
+  return response.data;
+};
+
+
 export {
   fetchUserOUID,
   fetchUserInfo,
@@ -110,4 +134,6 @@ export {
   fetchPattern,
   fetchMission,
   fetchAllMissions,
+  fetchConsumableMaterialMap,
+  fetchAcquisitionInfos,
 };

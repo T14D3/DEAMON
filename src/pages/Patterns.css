@@ -16,7 +16,7 @@ body {
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Adjust for centering */
     border: 1px solid #3aa0ac; /* Border for the container */
-    border-radius: 10px; /* Rounded corners */
+    /* border-radius: 10px; Rounded corners */
     padding: 10px; /* Padding inside the container */
     background-color: rgba(40, 40, 40, 0.9); /* Background color */
     z-index: 1000; /* Above other content */
@@ -29,7 +29,7 @@ body {
     width: 400px;
     padding: 10px;
     border: 1px solid #3aa0ac;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     background-color: #252525;
     color: #5F8589;
     transition: background-color 0.2s;
@@ -54,15 +54,16 @@ body {
 
 .pattern-card {
     background-color: rgba(40, 40, 40, 0.9);
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 20px;
     text-align: center;
     border: 1px solid #3aa0ac;
     transition: transform 0.2s;
+    cursor: pointer;
 }
 
 .pattern-card:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
 }
 
 .pattern-card h2 {
@@ -77,7 +78,6 @@ body {
 .content-table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 10px;
 }
   
 .content-table th, .content-table td {
@@ -108,4 +108,56 @@ body {
     text-align: center; /* Center text inside the bar */
     color: #fff; /* Text color */
     line-height: 20px; /* Center the percentage text vertically */
+}
+.reward-entry-box {
+    border: 1px solid var(--primary-color);
+    /* border-radius: 0.5rem; */
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.reward-entry-header {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #282828;
+    padding: 1rem;
+    border: 1px solid #3aa0ac;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+    position: relative;
+    color: #fff;
+}
+
+.modal-close-button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.modal-entry {
+    margin-top: 1rem;
 }

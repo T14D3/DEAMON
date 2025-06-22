@@ -273,13 +273,52 @@ app.get('/api/meta/stat', async (req, res) => {
 app.get('/api/meta/patterns', async (req, res) => {
   try {
     const data = await getCacheOrFetch('fetchAllPatterns', async () => {
-      const filePath = path.join(__dirname, 'api', 'patterns.json');
-      const fileContents = await fs.promises.readFile(filePath, 'utf-8');
-      return JSON.parse(fileContents);
+      const response = await axios.get('https://open.api.nexon.com/static/tfd/meta/amorphous-reward.json');
+      return response.data;
     });
     res.json(data);
   } catch (error) {
     console.error('Error fetching all patterns:', error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.get('/api/meta/materials', async (req, res) => {
+  try {
+    const data = await getCacheOrFetch('fetchConsumableMaterialMap', async () => {
+      const response = await axios.get('https://open.api.nexon.com/static/tfd/meta/en/consumable-material.json');
+      return response.data;
+    });
+    res.json(data);
+  } catch (error) {
+    console.error('Error fetching consumable material map:', error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
+app.get('/api/meta/acquisition', async (req, res) => {
+  try {
+    const data = await getCacheOrFetch('fetchAcquisitionInfos', async () => {
+      const response = await axios.get('https://open.api.nexon.com/static/tfd/meta/en/acquisition-detail.json');
+      return response.data;
+    });
+    res.json(data);
+  } catch (error) {
+    console.error('Error fetching acquisition infos:', error);
+    res.status(500).json({ error: error.message });
+  }
+});
+
+
+app.get('/api/meta/missions', async (req, res) => {
+  try {
+    const data = await getCacheOrFetch('fetchAllMissions', async () => {
+      const missions = fs.readFileSync(path.join(__dirname, '/api/missions.json'), 'utf8');
+      return JSON.parse(missions);
+    });
+    res.json(data);
+  } catch (error) {
+    console.error('Error fetching all missions:', error);
     res.status(500).json({ error: error.message });
   }
 });
